@@ -17,30 +17,33 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am an Undergrad in Department of Automation, Tsinghua University. Aditionally, I worked as an intern at [haomo.ai](https://www.haomo.ai/) from 2023.06 to 2023.09.
+Hi, I am a master student in Department of Automation, Tsinghua University. Aditionally, I work as an intern at Xiaomi-EV.
 
-My research interest includes autonomous driving and reinforcement learning.
+My research interest includes end-to-end autonomous driving, world models and reinforcement learning.
 
 
 
-# 🔥 News
 
 
 # 📝 Publications 
 
-## Preprints and Codebases
-- Haoyi Niu $^*$, **Qimao Chen $^*$**, Yingyue Li and Jianming Hu, [Stackelberg Autonomous-Background Vehicle Modeling for Continual Policy Improvement](https://arxiv.org/abs/2309.14235), Under Review, 2023.
+- **Qimao Chen $^*$**, Fang Li$ $^*$, Shaoqing Xu $^*$, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang, **VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness**, AAAI 2026.
 
-# 🎖 Honors and Awards
-- *2022.10* Tsinghua University Academic Excellence Scholarship
+- Haoyi Niu $^*$, **Qimao Chen $^*$**, Tenglong Liu, Jianxiong Li, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan, [**xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing**](https://arxiv.org/pdf/2409.08687?), AAMAS 2026.
+
+
+
+## Preprints and Codebases
+
+- Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, **Qimao Chen**, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang
+, [**AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving**](https://arxiv.org/abs/2509.13769), arxiv 2025.
+
+
+- Haoyi Niu $^*$, **Qimao Chen $^*$**, Yingyue Li and Jianming Hu, [**Stackelberg Autonomous-Background Vehicle Modeling for Continual Policy Improvement**](https://arxiv.org/abs/2309.14235), NeurIPS 2023 Symposium on Machine Learning for Autonomous Driving & Agent Learning in Open-Endedness Workshop.
+
 
 # 📖 Educations
-- *2020.09 - present*, Undergraduate, Department of Automation, Tsinghua Univeristy, Beijing, China.
-- *2017.09 - 2020.07*, Zhengzhou Foreign Language School, Zhengzhou, Henan, China.
+- *2024.09 - present*, Master Student, Department of Automation, Tsinghua Univeristy, Beijing, China.
+- *2020.09 - 2024.07*, Undergraduate, Department of Automation, Tsinghua Univeristy, Beijing, China.
 
 
-# 💬 Invited Talks
-
-
-# 💻 Internships
-- *2020.06 - 2020.09*, [haomo.ai](https://www.haomo.ai/), China.
