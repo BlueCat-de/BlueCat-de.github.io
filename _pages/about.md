@@ -27,7 +27,7 @@ My research interest includes end-to-end autonomous driving, world models and re
 
 # 📝 Publications 
 
-- **Qimao Chen $^*$**, Fang Li$ $^*$, Shaoqing Xu $^*$, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang, **VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness**, AAAI 2026.
+- **Qimao Chen $^*$**, Fang Li $^*$, Shaoqing Xu $^*$, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang, **VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness**, AAAI 2026.
 
 - Haoyi Niu $^*$, **Qimao Chen $^*$**, Tenglong Liu, Jianxiong Li, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan, [**xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing**](https://arxiv.org/pdf/2409.08687?), AAMAS 2026.
 
