@@ -27,9 +27,9 @@ My research interest includes end-to-end autonomous driving, world models and re
 
 # 📝 Publications 
 
-- **Qimao Chen***, Fang Li*, Shaoqing Xu*, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang, **VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness**, AAAI 2026.
+- **Qimao Chen**\*, Fang Li\*, Shaoqing Xu\*, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang, **VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness**, AAAI 2026.
 
-- Haoyi Niu*, **Qimao Chen***, Tenglong Liu, Jianxiong Li, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan, [**xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing**](https://arxiv.org/pdf/2409.08687?), AAMAS 2026.
+- Haoyi Niu\*, **Qimao Chen**\*, Tenglong Liu, Jianxiong Li, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan, [**xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing**](https://arxiv.org/pdf/2409.08687?), AAMAS 2026.
 
 
 
@@ -39,7 +39,7 @@ My research interest includes end-to-end autonomous driving, world models and re
 , [**AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving**](https://arxiv.org/abs/2509.13769), arxiv 2025.
 
 
-- Haoyi Niu*, **Qimao Chen***, Yingyue Li and Jianming Hu, [**Stackelberg Autonomous-Background Vehicle Modeling for Continual Policy Improvement**](https://arxiv.org/abs/2309.14235), NeurIPS 2023 Symposium on Machine Learning for Autonomous Driving & Agent Learning in Open-Endedness Workshop.
+- Haoyi Niu\*, **Qimao Chen**\*, Yingyue Li and Jianming Hu, [**Stackelberg Autonomous-Background Vehicle Modeling for Continual Policy Improvement**](https://arxiv.org/abs/2309.14235), NeurIPS 2023 Symposium on Machine Learning for Autonomous Driving & Agent Learning in Open-Endedness Workshop.
 
 
 # 📖 Educations
