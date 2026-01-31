@@ -31,12 +31,14 @@ My research interest includes end-to-end autonomous driving, world models and re
 
 - Haoyi Niu\*, **Qimao Chen**\*, Tenglong Liu, Jianxiong Li, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan, [**xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing**](https://arxiv.org/pdf/2409.08687?), AAMAS 2026.
 
+- Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, **Qimao Chen**, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang, ICRA 2026.
+, [**AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving**](https://arxiv.org/abs/2509.13769), arxiv 2025.
+
 - Haoyi Niu\*, **Qimao Chen**\*, Yingyue Li and Jianming Hu, [**Stackelberg Autonomous-Background Vehicle Modeling for Continual Policy Improvement**](https://arxiv.org/abs/2309.14235), NeurIPS 2023 Symposium on Machine Learning for Autonomous Driving & Agent Learning in Open-Endedness Workshop.
 
-## Preprints and Codebases
+<!-- ## Preprints and Codebases -->
 
-- Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, **Qimao Chen**, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang
-, [**AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving**](https://arxiv.org/abs/2509.13769), arxiv 2025.
+
 
 
 
