@@ -59,5 +59,5 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 
 # 💻 Internships
 - *2024.12 - 2026.04*, [Xiaomi EV](https://www.xiaomiev.com/), China.
-- *2026.04 - now*, ByteDance, China.
+
 
