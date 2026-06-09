@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, I am a second-year master's student in Department of Automation, Tsinghua University.
 
-My research interest includes end-to-end autonomous driving, reinforcement learning and llm applications.
+My research interest includes end-to-end autonomous driving, reinforcement learning and agentic llm.
 
 
 
@@ -30,9 +30,9 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 - *2025.08*: One Paper (VILTA) is accepted by AAAI 2026!
 - *2023.10*: One Paper (SDM) is accepted by NeurIPS 2023 Symposium on ML4AD and ALOE Workshop!
 
-# 📝 Publications 
+# 📝 Publications and Preprints
 
-
+- **Qimao Chen**\*, Fang Li\*, Yuechen Luo, Zehan Zhang, Haiyang Sun, Fangzhen Li, Bing Wang, Yang Ji, Jiong Deng, Hongwei Xie, Hangjun Ye, Long Chen, Yi Zhang, [**DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving**](https://arxiv.org/pdf/2606.08525), preprint.
 
 - Yuechen Luo\*, **Qimao Chen**\*, Fang Li\*, Shaoqing Xu, Jiaxin Liu, Ziying Song, Zhi-Xin Yang, Fuxi Wen, [**Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures**](https://arxiv.org/pdf/2603.01063), CVPR 2026.
 
@@ -59,4 +59,5 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 
 # 💻 Internships
 - *2024.12 - 2026.04*, [Xiaomi EV](https://www.xiaomiev.com/), China.
+- *2026.04 - now*, ByteDance, China.
 
