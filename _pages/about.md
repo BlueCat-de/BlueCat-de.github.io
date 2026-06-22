@@ -24,6 +24,7 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 
 
 # 🔥 News
+- *2026.06*: One Paper (World-in-Loop) is accepted by ECCV 2026!
 - *2026.01*: One Paper (ELF-VLA) is accepted by CVPR 2026!
 - *2026.01*: One Paper (AdaThinkDrive) is accepted by ICRA 2026!
 - *2025.12*: One Paper (xTED) is accepted by AAMAS 2026!
@@ -31,6 +32,8 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 - *2023.10*: One Paper (SDM) is accepted by NeurIPS 2023 Symposium on ML4AD and ALOE Workshop!
 
 # 📝 Publications and Preprints
+
+- Shaoqing Xu, Fang Li, Zhi-Xin Yang, **Qimao Chen**, Yuechen Luo, Zhixiang Duan, Yifan Yang, Long Chen, **World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies**, ECCV 2026.
 
 - **Qimao Chen**\*, Fang Li\*, Yuechen Luo, Zehan Zhang, Haiyang Sun, Fangzhen Li, Bing Wang, Yang Ji, Jiong Deng, Hongwei Xie, Hangjun Ye, Long Chen, Yi Zhang, [**DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving**](https://arxiv.org/pdf/2606.08525), preprint.
 
