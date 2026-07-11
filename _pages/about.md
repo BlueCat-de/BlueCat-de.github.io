@@ -35,10 +35,7 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 
 <div class="publication-list">
   <article class="publication-card">
-    <div class="publication-thumb publication-thumb--text" role="img" aria-label="World-in-Loop publication cover">
-      <span>ECCV 2026</span>
-      <strong>World-in-Loop</strong>
-    </div>
+    <img class="publication-thumb" src="/images/publications/world_in_loop_main.svg" alt="World-in-Loop overview figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue">ECCV 2026</div>
       <h3>World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies</h3>
@@ -48,7 +45,7 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/drive_reward.png" alt="DriveReward paper preview" loading="lazy">
+    <img class="publication-thumb" src="/images/publications/drive_reward_main.jpg" alt="DriveReward main figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue publication-venue--preprint">Preprint</div>
       <h3>DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving</h3>
@@ -61,7 +58,7 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/elf_vla.png" alt="ELF-VLA paper preview" loading="lazy">
+    <img class="publication-thumb" src="/images/publications/elf_vla_main.png" alt="ELF-VLA main figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue">CVPR 2026</div>
       <h3>Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures</h3>
@@ -74,7 +71,7 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/adathinkdrive.png" alt="AdaThinkDrive paper preview" loading="lazy">
+    <img class="publication-thumb" src="/images/publications/adathinkdrive_main.jpg" alt="AdaThinkDrive main figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue">ICRA 2026</div>
       <h3>AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving</h3>
@@ -87,7 +84,7 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/xted.png" alt="xTED paper preview" loading="lazy">
+    <img class="publication-thumb" src="/images/publications/xted_main.png" alt="xTED main figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue">AAMAS 2026</div>
       <h3>xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing</h3>
@@ -101,7 +98,7 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/vilta.png" alt="VILTA paper preview" loading="lazy">
+    <img class="publication-thumb" src="/images/publications/vilta_main.png" alt="VILTA main figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue">AAAI 2026</div>
       <h3>VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness</h3>
@@ -114,7 +111,7 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/sdm_stackelberg.png" alt="Stackelberg autonomous-background vehicle modeling paper preview" loading="lazy">
+    <img class="publication-thumb" src="/images/publications/sdm_stackelberg_main.png" alt="Stackelberg autonomous-background vehicle modeling main figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue">NeurIPS 2023 ML4AD Workshop</div>
       <h3>Stackelberg Autonomous-Background Vehicle Modeling for Continual Policy Improvement</h3>

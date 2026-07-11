@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">World-in-Loop overview</title>
+  <desc id="desc">A schematic overview of event-triggered world model correction for robust VLA policies.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#17395c"/>
+    </marker>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#eef3f8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="620" fill="#ffffff"/>
+  <rect x="42" y="42" width="1116" height="536" rx="16" fill="url(#panel)" stroke="#d8dadd" stroke-width="2"/>
+  <text x="78" y="96" fill="#17395c" font-family="Georgia, Times, serif" font-size="34" font-weight="700">World-in-Loop</text>
+  <text x="78" y="130" fill="#4d5968" font-family="Arial, sans-serif" font-size="18">Online correction via event-triggered world models for robust VLA policies</text>
+
+  <g fill="#ffffff" stroke="#b8c5d2" stroke-width="2">
+    <rect x="88" y="230" width="210" height="126" rx="10"/>
+    <rect x="360" y="230" width="210" height="126" rx="10"/>
+    <rect x="632" y="230" width="210" height="126" rx="10"/>
+    <rect x="904" y="230" width="210" height="126" rx="10"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="193" y="278" fill="#17212e" font-size="23" font-weight="700">VLA Policy</text>
+    <text x="193" y="310" fill="#4d5968" font-size="17">plans actions</text>
+    <text x="465" y="278" fill="#17212e" font-size="23" font-weight="700">World Model</text>
+    <text x="465" y="310" fill="#4d5968" font-size="17">forecasts outcomes</text>
+    <text x="737" y="278" fill="#17212e" font-size="23" font-weight="700">Event Trigger</text>
+    <text x="737" y="310" fill="#4d5968" font-size="17">detects risky states</text>
+    <text x="1009" y="278" fill="#17212e" font-size="23" font-weight="700">Online Correction</text>
+    <text x="1009" y="310" fill="#4d5968" font-size="17">updates robust policy</text>
+  </g>
+
+  <g stroke="#17395c" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M 300 293 L 348 293"/>
+    <path d="M 572 293 L 620 293"/>
+    <path d="M 844 293 L 892 293"/>
+    <path d="M 1009 360 C 1009 470 193 470 193 365"/>
+  </g>
+
+  <g fill="#f6f8fa" stroke="#d8dadd" stroke-width="2">
+    <rect x="150" y="410" width="160" height="44" rx="22"/>
+    <rect x="520" y="410" width="160" height="44" rx="22"/>
+    <rect x="890" y="410" width="160" height="44" rx="22"/>
+  </g>
+  <g fill="#17395c" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">
+    <text x="230" y="438">simulate</text>
+    <text x="600" y="438">evaluate</text>
+    <text x="970" y="438">correct</text>
+  </g>
+</svg>

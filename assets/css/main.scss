@@ -367,9 +367,9 @@ body:before {
 
 .publication-card {
     display: grid;
-    grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
-    gap: 1.2rem;
-    padding: 1rem 0;
+    grid-template-columns: minmax(240px, 330px) minmax(0, 1fr);
+    gap: 1.3rem;
+    padding: 1.15rem 0;
     border-bottom: 1px solid #e2e4e7;
 }
 
@@ -383,39 +383,12 @@ body:before {
 
 .publication-thumb {
     width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    object-position: top center;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    object-position: center;
     border: 1px solid #d8dadd;
     border-radius: 4px;
-    background: #f4f5f6;
-}
-
-.publication-thumb--text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 145px;
-    padding: 1rem;
-    border-left: 4px solid #17395c;
-    color: #17212e;
-    font-family: Georgia, Times, serif;
-}
-
-.publication-thumb--text span {
-    margin-bottom: 0.45rem;
-    color: #1f4e79;
-    font-family: $sans-serif;
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-.publication-thumb--text strong {
-    color: #17212e;
-    font-size: 1.28rem;
-    line-height: 1.2;
+    background: #ffffff;
 }
 
 .publication-info {
@@ -504,7 +477,7 @@ body:before {
     }
 
     .publication-card {
-        grid-template-columns: minmax(130px, 180px) minmax(0, 1fr);
+        grid-template-columns: minmax(190px, 260px) minmax(0, 1fr);
     }
 }
 
@@ -569,6 +542,6 @@ body:before {
     }
 
     .publication-thumb {
-        max-height: 220px;
+        max-height: 240px;
     }
 }
