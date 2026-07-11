@@ -63,8 +63,8 @@ author:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
+  - files
   - docs
   - google_scholar_crawler
   - "*.sublime-project"

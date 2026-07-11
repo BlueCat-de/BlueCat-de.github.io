@@ -8,13 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 Hi, I am a second-year master's student in Department of Automation, Tsinghua University.
@@ -25,7 +18,7 @@ My research focuses on the application of multimodal large models, including aut
 
 <div class="publication-list">
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/drive_reward_main.jpg" alt="DriveReward main figure" width="1000" height="347" loading="eager" decoding="async" fetchpriority="high">
+    <img class="publication-thumb" src="/images/publications/thumbs/drive_reward_thumb.jpg" alt="DriveReward main figure" width="660" height="229" loading="eager" decoding="async" fetchpriority="high">
     <div class="publication-info">
       <div class="publication-venue publication-venue--preprint">Preprint</div>
       <h3>DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving</h3>
@@ -38,7 +31,7 @@ My research focuses on the application of multimodal large models, including aut
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/vilta_main.jpg" alt="VILTA main figure" width="997" height="544" loading="lazy" decoding="async">
+    <img class="publication-thumb" src="/images/publications/thumbs/vilta_thumb.jpg" alt="VILTA main figure" width="660" height="360" loading="lazy" decoding="async">
     <div class="publication-info">
       <div class="publication-venue">AAAI 2026</div>
       <h3>VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness</h3>
@@ -51,7 +44,7 @@ My research focuses on the application of multimodal large models, including aut
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/elf_vla_main.jpg" alt="ELF-VLA main figure" width="1000" height="572" loading="lazy" decoding="async">
+    <img class="publication-thumb" src="/images/publications/thumbs/elf_vla_thumb.jpg" alt="ELF-VLA main figure" width="660" height="378" loading="lazy" decoding="async">
     <div class="publication-info">
       <div class="publication-venue">CVPR 2026</div>
       <h3>Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures</h3>
@@ -64,7 +57,7 @@ My research focuses on the application of multimodal large models, including aut
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/xted_main.jpg" alt="xTED main figure" width="1000" height="304" loading="lazy" decoding="async">
+    <img class="publication-thumb" src="/images/publications/thumbs/xted_thumb.jpg" alt="xTED main figure" width="660" height="201" loading="lazy" decoding="async">
     <div class="publication-info">
       <div class="publication-venue">AAMAS 2026</div>
       <h3>xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing</h3>
@@ -78,7 +71,7 @@ My research focuses on the application of multimodal large models, including aut
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/sdm_stackelberg_main.jpg" alt="Stackelberg autonomous-background vehicle modeling main figure" width="992" height="482" loading="lazy" decoding="async">
+    <img class="publication-thumb" src="/images/publications/thumbs/sdm_stackelberg_thumb.jpg" alt="Stackelberg autonomous-background vehicle modeling main figure" width="660" height="321" loading="lazy" decoding="async">
     <div class="publication-info">
       <div class="publication-venue">NeurIPS 2023 ML4AD Workshop</div>
       <h3>Stackelberg Autonomous-Background Vehicle Modeling for Continual Policy Improvement</h3>
@@ -91,7 +84,7 @@ My research focuses on the application of multimodal large models, including aut
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/adathinkdrive_main.jpg" alt="AdaThinkDrive main figure" width="1000" height="458" loading="lazy" decoding="async">
+    <img class="publication-thumb" src="/images/publications/thumbs/adathinkdrive_thumb.jpg" alt="AdaThinkDrive main figure" width="660" height="302" loading="lazy" decoding="async">
     <div class="publication-info">
       <div class="publication-venue">ICRA 2026</div>
       <h3>AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving</h3>
