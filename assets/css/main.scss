@@ -381,6 +381,10 @@ body:before {
     border-bottom: 0;
 }
 
+.publication-card--no-thumb {
+    grid-template-columns: 1fr;
+}
+
 .publication-thumb {
     width: 100%;
     aspect-ratio: 16 / 9;
