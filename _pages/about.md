@@ -35,16 +35,6 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 
 <div class="publication-list">
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/world_in_loop_main.svg" alt="World-in-Loop overview figure" loading="lazy">
-    <div class="publication-info">
-      <div class="publication-venue">ECCV 2026</div>
-      <h3>World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies</h3>
-      <p class="publication-authors">Shaoqing Xu, Fang Li, Yuechen Luo, <strong>Qimao Chen</strong>, Zhixiang Duan, Yifan Yang, Long Chen, Zhi-Xin Yang</p>
-      <p class="publication-status">Accepted by ECCV 2026.</p>
-    </div>
-  </article>
-
-  <article class="publication-card">
     <img class="publication-thumb" src="/images/publications/drive_reward_main.jpg" alt="DriveReward main figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue publication-venue--preprint">Preprint</div>
@@ -58,6 +48,19 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
   </article>
 
   <article class="publication-card">
+    <img class="publication-thumb" src="/images/publications/vilta_main.png" alt="VILTA main figure" loading="lazy">
+    <div class="publication-info">
+      <div class="publication-venue">AAAI 2026</div>
+      <h3>VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness</h3>
+      <p class="publication-authors"><strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Shaoqing Xu<sup>*</sup>, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang</p>
+      <p class="publication-status">Accepted by AAAI 2026.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2601.12672">arXiv</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-card">
     <img class="publication-thumb" src="/images/publications/elf_vla_main.png" alt="ELF-VLA main figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue">CVPR 2026</div>
@@ -66,19 +69,6 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
       <p class="publication-status">Accepted by CVPR 2026.</p>
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2603.01063">arXiv</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/adathinkdrive_main.jpg" alt="AdaThinkDrive main figure" loading="lazy">
-    <div class="publication-info">
-      <div class="publication-venue">ICRA 2026</div>
-      <h3>AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving</h3>
-      <p class="publication-authors">Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, <strong>Qimao Chen</strong>, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang</p>
-      <p class="publication-status">Accepted by ICRA 2026.</p>
-      <div class="publication-links">
-        <a href="https://arxiv.org/abs/2509.13769">arXiv</a>
       </div>
     </div>
   </article>
@@ -98,19 +88,6 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
   </article>
 
   <article class="publication-card">
-    <img class="publication-thumb" src="/images/publications/vilta_main.png" alt="VILTA main figure" loading="lazy">
-    <div class="publication-info">
-      <div class="publication-venue">AAAI 2026</div>
-      <h3>VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness</h3>
-      <p class="publication-authors"><strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Shaoqing Xu<sup>*</sup>, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang</p>
-      <p class="publication-status">Accepted by AAAI 2026.</p>
-      <div class="publication-links">
-        <a href="https://arxiv.org/abs/2601.12672">arXiv</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="publication-card">
     <img class="publication-thumb" src="/images/publications/sdm_stackelberg_main.png" alt="Stackelberg autonomous-background vehicle modeling main figure" loading="lazy">
     <div class="publication-info">
       <div class="publication-venue">NeurIPS 2023 ML4AD Workshop</div>
@@ -120,6 +97,29 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2309.14235">arXiv</a>
       </div>
+    </div>
+  </article>
+
+  <article class="publication-card">
+    <img class="publication-thumb" src="/images/publications/adathinkdrive_main.jpg" alt="AdaThinkDrive main figure" loading="lazy">
+    <div class="publication-info">
+      <div class="publication-venue">ICRA 2026</div>
+      <h3>AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving</h3>
+      <p class="publication-authors">Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, <strong>Qimao Chen</strong>, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang</p>
+      <p class="publication-status">Accepted by ICRA 2026.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2509.13769">arXiv</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-card">
+    <img class="publication-thumb" src="/images/publications/world_in_loop_main.svg" alt="World-in-Loop overview figure" loading="lazy">
+    <div class="publication-info">
+      <div class="publication-venue">ECCV 2026</div>
+      <h3>World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies</h3>
+      <p class="publication-authors">Shaoqing Xu, Fang Li, Yuechen Luo, <strong>Qimao Chen</strong>, Zhixiang Duan, Yifan Yang, Long Chen, Zhi-Xin Yang</p>
+      <p class="publication-status">Accepted by ECCV 2026.</p>
     </div>
   </article>
 </div>
