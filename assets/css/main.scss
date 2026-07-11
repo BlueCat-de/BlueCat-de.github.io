@@ -36,7 +36,6 @@
 
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
-@import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
 .paper-box {
@@ -422,6 +421,11 @@ body:before {
 
 .publication-card--no-thumb {
     grid-template-columns: 1fr;
+}
+
+.publication-card picture {
+    display: block;
+    width: 100%;
 }
 
 .publication-thumb {
