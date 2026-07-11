@@ -253,7 +253,8 @@ body:before {
 }
 
 .author__urls a,
-.author__urls_sm a {
+.author__urls_sm a,
+.author__urls_sm span {
     color: #1f4e79;
     transition: color 0.18s ease;
 }
@@ -262,6 +263,10 @@ body:before {
 .author__urls_sm a:hover {
     color: #122d49;
     text-decoration: underline;
+}
+
+.author__urls_sm span {
+    display: inline-block;
 }
 
 .page {
