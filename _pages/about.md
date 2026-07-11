@@ -33,19 +33,99 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 
 # 📝 Publications and Preprints
 
-- Shaoqing Xu, Fang Li, Yuechen Luo, **Qimao Chen**, Zhixiang Duan, Yifan Yang, Long Chen, Zhi-Xin Yang, **World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies**, ECCV 2026.
+<div class="publication-list">
+  <article class="publication-card">
+    <div class="publication-thumb publication-thumb--text" role="img" aria-label="World-in-Loop publication cover">
+      <span>ECCV 2026</span>
+      <strong>World-in-Loop</strong>
+    </div>
+    <div class="publication-info">
+      <div class="publication-venue">ECCV 2026</div>
+      <h3>World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies</h3>
+      <p class="publication-authors">Shaoqing Xu, Fang Li, Yuechen Luo, <strong>Qimao Chen</strong>, Zhixiang Duan, Yifan Yang, Long Chen, Zhi-Xin Yang</p>
+      <p class="publication-status">Accepted by ECCV 2026.</p>
+    </div>
+  </article>
 
-- **Qimao Chen**\*, Fang Li\*, Yuechen Luo, Zehan Zhang, Haiyang Sun, Fangzhen Li, Bing Wang, Yang Ji, Jiong Deng, Hongwei Xie, Hangjun Ye, Long Chen, Yi Zhang, [**DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving**](https://arxiv.org/pdf/2606.08525), preprint.
+  <article class="publication-card">
+    <img class="publication-thumb" src="/images/publications/drive_reward.png" alt="DriveReward paper preview" loading="lazy">
+    <div class="publication-info">
+      <div class="publication-venue publication-venue--preprint">Preprint</div>
+      <h3>DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving</h3>
+      <p class="publication-authors"><strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Yuechen Luo, Zehan Zhang, Haiyang Sun, Fangzhen Li, Bing Wang, Yang Ji, Jiong Deng, Hongwei Xie, Hangjun Ye, Long Chen, Yi Zhang</p>
+      <p class="publication-status">Preprint.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2606.08525">arXiv</a>
+      </div>
+    </div>
+  </article>
 
-- Yuechen Luo\*, **Qimao Chen**\*, Fang Li\*, Shaoqing Xu, Jiaxin Liu, Ziying Song, Zhi-Xin Yang, Fuxi Wen, [**Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures**](https://arxiv.org/pdf/2603.01063), CVPR 2026.
+  <article class="publication-card">
+    <img class="publication-thumb" src="/images/publications/elf_vla.png" alt="ELF-VLA paper preview" loading="lazy">
+    <div class="publication-info">
+      <div class="publication-venue">CVPR 2026</div>
+      <h3>Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures</h3>
+      <p class="publication-authors">Yuechen Luo<sup>*</sup>, <strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Shaoqing Xu, Jiaxin Liu, Ziying Song, Zhi-Xin Yang, Fuxi Wen</p>
+      <p class="publication-status">Accepted by CVPR 2026.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2603.01063">arXiv</a>
+      </div>
+    </div>
+  </article>
 
-- Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, **Qimao Chen**, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang, [**AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving**](https://arxiv.org/abs/2509.13769), ICRA 2026.
-  
-- Haoyi Niu\*, **Qimao Chen**\*, Tenglong Liu, Jianxiong Li, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan, [**xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing**](https://arxiv.org/pdf/2409.08687?), AAMAS 2026.
-  
-- **Qimao Chen**\*, Fang Li\*, Shaoqing Xu\*, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang, [**VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness**](https://arxiv.org/abs/2601.12672), AAAI 2026.
-  
-- Haoyi Niu\*, **Qimao Chen**\*, Yingyue Li and Jianming Hu, [**Stackelberg Autonomous-Background Vehicle Modeling for Continual Policy Improvement**](https://arxiv.org/abs/2309.14235), NeurIPS 2023 ML4AD Workshop.
+  <article class="publication-card">
+    <img class="publication-thumb" src="/images/publications/adathinkdrive.png" alt="AdaThinkDrive paper preview" loading="lazy">
+    <div class="publication-info">
+      <div class="publication-venue">ICRA 2026</div>
+      <h3>AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving</h3>
+      <p class="publication-authors">Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, <strong>Qimao Chen</strong>, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang</p>
+      <p class="publication-status">Accepted by ICRA 2026.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2509.13769">arXiv</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-card">
+    <img class="publication-thumb" src="/images/publications/xted.png" alt="xTED paper preview" loading="lazy">
+    <div class="publication-info">
+      <div class="publication-venue">AAMAS 2026</div>
+      <h3>xTED: Cross-Domain Adaptation via Diffusion-Based Trajectory Editing</h3>
+      <p class="publication-authors">Haoyi Niu<sup>*</sup>, <strong>Qimao Chen</strong><sup>*</sup>, Tenglong Liu, Jianxiong Li, Guyue Zhou, Yi Zhang, Jianming Hu, Xianyuan Zhan</p>
+      <p class="publication-status">Accepted by AAMAS 2026.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2409.08687">arXiv</a>
+        <a href="https://github.com/t6-thu/xTED">GitHub</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-card">
+    <img class="publication-thumb" src="/images/publications/vilta.png" alt="VILTA paper preview" loading="lazy">
+    <div class="publication-info">
+      <div class="publication-venue">AAAI 2026</div>
+      <h3>VILTA: A VLM-in-the-Loop Adversary for Enhancing Driving Policy Robustness</h3>
+      <p class="publication-authors"><strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Shaoqing Xu<sup>*</sup>, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang</p>
+      <p class="publication-status">Accepted by AAAI 2026.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2601.12672">arXiv</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-card">
+    <img class="publication-thumb" src="/images/publications/sdm_stackelberg.png" alt="Stackelberg autonomous-background vehicle modeling paper preview" loading="lazy">
+    <div class="publication-info">
+      <div class="publication-venue">NeurIPS 2023 ML4AD Workshop</div>
+      <h3>Stackelberg Autonomous-Background Vehicle Modeling for Continual Policy Improvement</h3>
+      <p class="publication-authors">Haoyi Niu<sup>*</sup>, <strong>Qimao Chen</strong><sup>*</sup>, Yingyue Li and Jianming Hu</p>
+      <p class="publication-status">Accepted by NeurIPS 2023 ML4AD Workshop.</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2309.14235">arXiv</a>
+      </div>
+    </div>
+  </article>
+</div>
 
 <!-- ## Preprints and Codebases -->
 
@@ -63,5 +143,3 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 # 💻 Internships
 - *2024.12 - 2026.04*, [Xiaomi EV](https://www.xiaomiev.com/), China.
 - *2026.04 - present*, [ByteDance](https://www.bytedance.com/en/), China.
-
-
