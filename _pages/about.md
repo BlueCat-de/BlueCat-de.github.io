@@ -33,7 +33,7 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 
 # 📝 Publications and Preprints
 
-- Shaoqing Xu, Fang Li, Zhi-Xin Yang, **Qimao Chen**, Yuechen Luo, Zhixiang Duan, Yifan Yang, Long Chen, **World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies**, ECCV 2026.
+- Shaoqing Xu, Fang Li, Yuechen Luo, **Qimao Chen**, Zhixiang Duan, Yifan Yang, Long Chen, Zhi-Xin Yang, **World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies**, ECCV 2026.
 
 - **Qimao Chen**\*, Fang Li\*, Yuechen Luo, Zehan Zhang, Haiyang Sun, Fangzhen Li, Bing Wang, Yang Ji, Jiong Deng, Hongwei Xie, Hangjun Ye, Long Chen, Yi Zhang, [**DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving**](https://arxiv.org/pdf/2606.08525), preprint.
 
@@ -56,12 +56,12 @@ My research interest includes end-to-end autonomous driving, reinforcement learn
 
 
 # 📖 Educations
-- *2024.09 - present*, Master's Student, Department of Automation, Tsinghua Univeristy, Beijing, China.
+- *2024.09 - present*, Master's Student, Department of Automation, Tsinghua University, Beijing, China.
 - *2020.09 - 2024.07*, Undergraduate, Department of Automation, Tsinghua Univeristy, Beijing, China.
 
 
 # 💻 Internships
 - *2024.12 - 2026.04*, [Xiaomi EV](https://www.xiaomiev.com/), China.
-
+- *2026.04 - present*, [ByteDance](https://www.bytedance.com/en/), China.
 
 
