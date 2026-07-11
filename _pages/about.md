@@ -10,11 +10,22 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am a second-year master's student in Department of Automation, Tsinghua University.
+<div class="intro-panel">
+  <p class="intro-lead">Hi, I am a second-year master's student in Department of Automation, Tsinghua University.</p>
 
-My research focuses on the application of multimodal large models, including autonomous driving and embodied intelligence. Beyond research, I am also exploring machine-empowered quantitative trading in my spare time. Feel free to reach out for discussion and collaboration.
+  <p class="intro-text">My research focuses on the application of multimodal large models, including autonomous driving and embodied intelligence. Beyond research, I am also exploring machine-empowered quantitative trading in my spare time. Feel free to reach out for discussion and collaboration.</p>
 
-# 📝 Publications and Preprints
+  <div class="intro-tags" aria-label="Research focus areas">
+    <span>Multimodal Large Models</span>
+    <span>Autonomous Driving</span>
+    <span>Embodied Intelligence</span>
+    <span>Quantitative Trading</span>
+  </div>
+</div>
+
+<span class='anchor' id='publications'></span>
+
+# Publications and Preprints
 
 <div class="publication-list">
   <article class="publication-card">
@@ -114,11 +125,15 @@ My research focuses on the application of multimodal large models, including aut
 
 
 
-# 📖 Educations
+<span class='anchor' id='educations'></span>
+
+# Educations
 - *2024.09 - present*, Master's Student, Department of Automation, Tsinghua University, Beijing, China.
-- *2020.09 - 2024.07*, Undergraduate, Department of Automation, Tsinghua Univeristy, Beijing, China.
+- *2020.09 - 2024.07*, Undergraduate, Department of Automation, Tsinghua University, Beijing, China.
 
 
-# 💻 Internships
+<span class='anchor' id='internships'></span>
+
+# Internships
 - *2024.12 - 2026.04*, [Xiaomi EV](https://www.xiaomiev.com/), China.
 - *2026.04 - present*, [ByteDance](https://www.bytedance.com/en/), China.

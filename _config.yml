@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Qimao Chen"
-description              : "Master Student at Department of Automation, Tsinghua University. Focusing on Autonomous Driving."
+description              : "Master Student at Department of Automation, Tsinghua University. Researching multimodal large models for autonomous driving and embodied intelligence."
 repository               : "BlueCat-de/BlueCat-de.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -27,7 +27,7 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=SCHOLAR_ID&user=cb7JpWQAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=cb7JpWQAAAAJ"
   email            : "chenqimao8@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
