@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Qimao Chen"
   avatar           : "images/me.jpg"
-  bio              : "Tsinghua University"
+  bio              : "MLLM / Decision Intelligence"
   location         : "Beijing, China"
   employer         :
   pubmed           : 

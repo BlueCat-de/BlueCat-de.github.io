@@ -25,6 +25,27 @@ redirect_from:
   </a>
 </section>
 
+<section class="operating-profile reveal" aria-labelledby="operating-profile-title">
+  <div class="operating-profile__heading">
+    <p class="section-kicker">WHAT I BRING</p>
+    <h2 id="operating-profile-title">Research rigor, systems ownership, and applied judgment.</h2>
+  </div>
+  <dl class="operating-profile__list">
+    <div>
+      <dt>Frame</dt>
+      <dd>Turn open-ended, long-tail problems into measurable learning objectives and experiments.</dd>
+    </div>
+    <div>
+      <dt>Train</dt>
+      <dd>Design multimodal data, reward signals, and post-training loops for robust decision-making.</dd>
+    </div>
+    <div>
+      <dt>Deliver</dt>
+      <dd>Carry work from research prototypes through evaluation workflows to production-facing model systems.</dd>
+    </div>
+  </dl>
+</section>
+
 <section class="research-ledger reveal" aria-labelledby="research-ledger-title">
   <div class="research-ledger__heading">
     <p class="section-kicker">RESEARCH THREADS</p>
@@ -207,7 +228,7 @@ redirect_from:
     </div>
   </article>
   <article class="timeline__entry">
-    <time>2024.12 — 2026.04</time>
+    <time>2024.12 — 2026.03</time>
     <div>
       <h3><a href="https://www.xiaomiev.com/">Xiaomi EV</a></h3>
       <p>End-to-end autonomous driving research internship, China.</p>
