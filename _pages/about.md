@@ -11,7 +11,6 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <section class="home-hero reveal" aria-labelledby="home-intro-title">
-  <p class="home-hero__eyebrow">QIMAO CHEN / RESEARCH NOTES</p>
   <h1 id="home-intro-title" class="home-hero__title">About me.</h1>
   <div class="home-hero__copy">
     <p class="home-hero__lead">Hi, I am a second-year master's student in the Department of Automation at Tsinghua University.</p>
