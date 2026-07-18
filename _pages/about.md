@@ -224,11 +224,11 @@ redirect_from:
     <time>2026.04 — present</time>
     <div>
       <h3><a href="https://www.bytedance.com/en/">ByteDance</a></h3>
-      <p>Post-training multimodal large models for e-commerce vertical scenarios, China.</p>
+      <p>Post-training multimodal large models for content understanding, China.</p>
     </div>
   </article>
   <article class="timeline__entry">
-    <time>2024.12 — 2026.03</time>
+    <time>2024.12 — 2026.04</time>
     <div>
       <h3><a href="https://www.xiaomiev.com/">Xiaomi EV</a></h3>
       <p>End-to-end autonomous driving research internship, China.</p>
