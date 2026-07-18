@@ -16,6 +16,8 @@ redirect_from:
   <div class="home-hero__copy">
     <p class="home-hero__lead">Hi, I am a second-year master's student in the Department of Automation at Tsinghua University.</p>
     <p>My research focuses on multimodal large models for autonomous driving and embodied intelligence. I am interested in how models can learn from long-tail data, reliable feedback, and real-world interaction. Beyond research, I also explore machine-empowered quantitative trading.</p>
+    <p class="home-hero__belief">I believe the world is governed by patterns waiting to be observed. By collecting data and using machines for rigorous statistical analysis, we can turn complex phenomena into evidence, understanding, and better decisions.</p>
+    <p class="home-hero__contact">Feel free to reach out for discussion or collaboration.</p>
   </div>
   <a class="home-hero__jump" href="#publications">
     <span>Selected work</span>
