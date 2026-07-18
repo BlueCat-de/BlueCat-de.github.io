@@ -620,9 +620,11 @@ body:before {
 html {
     scroll-padding-top: 5rem;
     overflow-x: clip;
+    background: var(--paper);
 }
 
 body {
+    min-height: 100vh;
     overflow-x: clip;
     background-color: var(--paper);
     background-image:
@@ -654,6 +656,7 @@ body {
     font-weight: 600;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    transition: color 180ms ease, text-shadow 180ms ease;
 }
 
 .greedy-nav a:after {
@@ -674,6 +677,10 @@ body {
     color: var(--ink);
     background: transparent;
     border: 0;
+}
+
+.greedy-nav a:hover {
+    text-shadow: 0 0 14px rgba(99, 214, 255, 0.38);
 }
 
 .greedy-nav a[aria-current="true"]:after {
@@ -703,8 +710,8 @@ body {
 
 @include breakpoint($large) {
     #main {
-        grid-template-columns: 220px minmax(0, 1fr);
-        gap: clamp(3rem, 6vw, 6rem);
+        grid-template-columns: 250px minmax(0, 1fr);
+        gap: clamp(2.6rem, 5vw, 5.5rem);
     }
 }
 
@@ -732,6 +739,13 @@ body {
     border: 0;
     border-radius: 6px;
     box-shadow: none;
+    transition: filter 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.author__avatar img:hover {
+    box-shadow: 0 0 0 1px rgba(99, 214, 255, 0.58), 0 12px 32px rgba(99, 214, 255, 0.12);
+    filter: saturate(1.08) contrast(1.03);
+    transform: translateY(-2px);
 }
 
 .author__name {
@@ -746,10 +760,11 @@ body {
 .author__bio {
     margin: 0.2rem 0 1.1rem;
     color: var(--navy);
-    font-size: 0.72rem;
+    font-size: 0.64rem;
     font-weight: 600;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .author__urls {
@@ -762,6 +777,7 @@ body {
 .author__urls li {
     margin-bottom: 0.4rem;
     line-height: 1.45;
+    transition: color 180ms ease, transform 180ms ease;
 }
 
 .author__urls a,
@@ -769,12 +785,38 @@ body {
 .author__urls_sm span {
     color: var(--navy);
     text-decoration: none;
+    transition: color 180ms ease, text-shadow 180ms ease;
+}
+
+.author__urls .fa,
+.author__urls .fas,
+.author__urls .fab,
+.author__urls .far,
+.author__urls_sm .fa,
+.author__urls_sm .fas,
+.author__urls_sm .fab,
+.author__urls_sm .far {
+    color: var(--navy) !important;
+    transition: color 180ms ease, filter 180ms ease;
 }
 
 .author__urls a:hover,
 .author__urls_sm a:hover {
     color: var(--navy);
     text-decoration: none;
+    text-shadow: 0 0 12px rgba(99, 214, 255, 0.32);
+}
+
+.author__urls li:hover {
+    color: var(--ink);
+    transform: translateX(3px);
+}
+
+.author__urls li:hover .fa,
+.author__urls li:hover .fas,
+.author__urls li:hover .fab,
+.author__urls li:hover .far {
+    filter: drop-shadow(0 0 7px rgba(99, 214, 255, 0.45));
 }
 
 .page {
@@ -782,6 +824,19 @@ body {
     border-radius: 0;
     background: transparent;
     box-shadow: none;
+}
+
+.page__footer {
+    border-top: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--muted);
+}
+
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal {
+    color: var(--navy);
 }
 
 .page__inner-wrap {
@@ -1036,7 +1091,7 @@ body {
     border-top: 1px solid var(--rule);
     background: transparent;
     box-shadow: none;
-    transition: border-color 180ms ease;
+    transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
 
 .research-ledger__list li:last-child {
@@ -1045,7 +1100,9 @@ body {
 
 .research-ledger__list li:hover {
     padding-left: 0;
-    background: transparent;
+    border-color: rgba(99, 214, 255, 0.55);
+    background: rgba(99, 214, 255, 0.045);
+    box-shadow: inset 2px 0 0 var(--navy);
     transform: none;
 }
 
@@ -1063,6 +1120,11 @@ body {
     font-size: 1.08rem;
     font-weight: 650;
     letter-spacing: -0.015em;
+    transition: color 180ms ease;
+}
+
+.research-ledger__list li:hover h3 {
+    color: var(--navy);
 }
 
 .research-ledger__list p {
@@ -1104,7 +1166,7 @@ body {
     border-bottom: 1px solid var(--rule);
     border-radius: 0;
     background: transparent;
-    transition: border-color 180ms ease;
+    transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
 
 .publication-card:first-child {
@@ -1118,12 +1180,15 @@ body {
 .publication-card:hover {
     padding-right: 0;
     padding-left: 0;
-    background: transparent;
+    border-color: rgba(99, 214, 255, 0.55);
+    background: rgba(99, 214, 255, 0.04);
+    box-shadow: inset 2px 0 0 var(--navy);
 }
 
 .publication-card picture {
     overflow: hidden;
     background: var(--paper-bright);
+    transition: box-shadow 180ms ease, transform 180ms ease;
 }
 
 .publication-thumb {
@@ -1131,11 +1196,16 @@ body {
     border: 0;
     border-radius: 0;
     background: var(--paper-bright);
-    transition: none;
+    transition: filter 180ms ease;
 }
 
 .publication-card:hover .publication-thumb {
     transform: none;
+    filter: saturate(1.08) contrast(1.04);
+}
+
+.publication-card:hover picture {
+    box-shadow: 0 0 0 1px rgba(99, 214, 255, 0.46), 0 14px 30px rgba(99, 214, 255, 0.08);
 }
 
 .publication-info h3 {
@@ -1147,6 +1217,11 @@ body {
     font-weight: 650;
     letter-spacing: -0.02em;
     line-height: 1.28;
+    transition: color 180ms ease;
+}
+
+.publication-card:hover .publication-info h3 {
+    color: var(--navy);
 }
 
 .publication-authors,
@@ -1203,12 +1278,14 @@ body {
     letter-spacing: 0.06em;
     text-decoration: none;
     text-transform: uppercase;
+    transition: border-color 180ms ease, color 180ms ease, text-shadow 180ms ease;
 }
 
 .publication-links a:hover {
     border-color: var(--lime);
     color: var(--navy);
     background: transparent;
+    text-shadow: 0 0 12px rgba(99, 214, 255, 0.32);
 }
 
 .timeline {
@@ -1222,12 +1299,14 @@ body {
     gap: 1.5rem;
     padding: 1.3rem 0;
     border-bottom: 1px solid var(--rule);
-    transition: border-color 180ms ease;
+    transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
 
 .timeline__entry:hover {
     padding-left: 0;
-    background: transparent;
+    border-color: rgba(99, 214, 255, 0.55);
+    background: rgba(99, 214, 255, 0.045);
+    box-shadow: inset 2px 0 0 var(--navy);
 }
 
 .timeline__entry time {
@@ -1246,6 +1325,11 @@ body {
     font-size: 1.05rem;
     font-weight: 650;
     letter-spacing: -0.02em;
+    transition: color 180ms ease;
+}
+
+.timeline__entry:hover h3 {
+    color: var(--navy);
 }
 
 .timeline__entry p {
@@ -1326,7 +1410,7 @@ body {
         margin: 0;
         padding: 1rem 0 0;
         border: 0;
-        border-top: 1px solid var(--ink);
+        border-top: 1px solid var(--rule);
         border-radius: 0;
         background: transparent;
         box-shadow: none;
@@ -1377,7 +1461,7 @@ body {
         flex-direction: column;
         min-width: 190px;
         padding: 0.5rem 0.85rem;
-        border: 1px solid var(--ink);
+        border: 1px solid var(--rule);
         background: var(--paper-bright);
         box-shadow: none;
         z-index: 20;
