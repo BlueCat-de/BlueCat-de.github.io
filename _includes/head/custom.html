@@ -1,17 +1,17 @@
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | relative_url }}">
-<link rel="manifest" href="{{ '/images/site.webmanifest' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
 
 <meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="{{ '/images/mstile-144x144.png?v=M44lzPylqQ' | relative_url }}">
-<meta name="msapplication-config" content="{{ '/images/browserconfig.xml?v=M44lzPylqQ' | relative_url }}">
+<meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
-{% if page.permalink == "/" or page.lang == "zh-CN" %}
-<link rel="preload" as="image" href="{{ '/images/publications/thumbs/drive_reward_thumb_360.jpg' | relative_url }}" imagesrcset="{{ '/images/publications/thumbs/drive_reward_thumb_360.jpg' | relative_url }} 360w, {{ '/images/publications/thumbs/drive_reward_thumb.jpg' | relative_url }} 600w" imagesizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px">
+{% if page.permalink == "/" %}
+<link rel="preload" as="image" href="/images/publications/thumbs/drive_reward_thumb_360.jpg" imagesrcset="/images/publications/thumbs/drive_reward_thumb_360.jpg 360w, /images/publications/thumbs/drive_reward_thumb.jpg 600w" imagesizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px">
 {% endif %}
 {% if site.author.dblp or site.author.pubmed or site.author.orcid or site.author.impactstory %}
-<link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}"/>
+<link rel="stylesheet" href="assets/css/academicons.css"/>
 {% endif %}
 
 {% if page.mathjax %}
