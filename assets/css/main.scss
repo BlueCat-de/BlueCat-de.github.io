@@ -1424,8 +1424,11 @@ body {
 }
 
 @media (max-width: 640px) {
+    html,
     body {
-        background-size: 22px 22px;
+        background-color: var(--paper);
+        background-image: none;
+        background-size: auto;
     }
 
     .masthead__inner-wrap {
@@ -1443,6 +1446,32 @@ body {
         width: 42px;
         height: 34px;
         padding: 0;
+        border: 1px solid var(--rule);
+        border-radius: 8px;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .greedy-nav button:hover,
+    .greedy-nav button:focus-visible {
+        border-color: var(--navy);
+        background: rgba(99, 214, 255, 0.08);
+        outline: none;
+    }
+
+    .greedy-nav .navicon,
+    .greedy-nav .navicon:before,
+    .greedy-nav .navicon:after {
+        background: var(--navy);
+    }
+
+    .greedy-nav button.close .navicon {
+        background: transparent;
+    }
+
+    .greedy-nav button.close .navicon:before,
+    .greedy-nav button.close .navicon:after {
+        background: var(--navy);
     }
 
     .greedy-nav .visible-links {
