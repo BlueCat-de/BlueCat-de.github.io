@@ -607,14 +607,14 @@ body:before {
 
 /* Editorial homepage rebuild */
 :root {
-    --paper: #f6f4ee;
-    --paper-bright: #fcfbf7;
-    --ink: #162033;
-    --muted: #657080;
-    --rule: #d7d7ce;
-    --navy: #17395c;
-    --lime: #c7ee3d;
-    --coral: #e97055;
+    --paper: #fafaf8;
+    --paper-bright: #ffffff;
+    --ink: #1d1d1f;
+    --muted: #6b7280;
+    --rule: #e5e5e0;
+    --navy: #2563eb;
+    --lime: #2563eb;
+    --coral: #2563eb;
 }
 
 html {
@@ -625,18 +625,15 @@ html {
 body {
     overflow-x: clip;
     background-color: var(--paper);
-    background-image:
-        linear-gradient(rgba(22, 32, 51, 0.026) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(22, 32, 51, 0.026) 1px, transparent 1px);
-    background-size: 28px 28px;
+    background-image: none;
     color: var(--ink);
     font-family: "Avenir Next", Avenir, "Gill Sans", "Segoe UI", sans-serif;
 }
 
 .masthead {
     border-bottom: 1px solid var(--rule);
-    background: rgba(246, 244, 238, 0.88);
-    backdrop-filter: blur(12px);
+    background: var(--paper);
+    backdrop-filter: none;
 }
 
 .masthead__inner-wrap {
@@ -1046,7 +1043,7 @@ body {
 
 .research-ledger__list li:hover {
     padding-left: 0.65rem;
-    background: rgba(199, 238, 61, 0.18);
+    background: rgba(37, 99, 235, 0.045);
     transform: none;
 }
 
@@ -1131,7 +1128,7 @@ body {
 .publication-card:hover {
     padding-right: 0.7rem;
     padding-left: 0.7rem;
-    background: rgba(252, 251, 247, 0.72);
+    background: rgba(255, 255, 255, 0.72);
 }
 
 .publication-card:hover:before {
@@ -1244,7 +1241,7 @@ body {
 
 .timeline__entry:hover {
     padding-left: 0.65rem;
-    background: rgba(199, 238, 61, 0.14);
+    background: rgba(37, 99, 235, 0.045);
 }
 
 .timeline__entry time {
@@ -1396,7 +1393,7 @@ body {
         padding: 0.5rem 0.85rem;
         border: 1px solid var(--ink);
         background: var(--paper-bright);
-        box-shadow: 5px 5px 0 var(--lime);
+        box-shadow: none;
         z-index: 20;
     }
 
