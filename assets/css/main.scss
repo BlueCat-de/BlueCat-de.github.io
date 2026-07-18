@@ -1166,7 +1166,7 @@ body {
     border-bottom: 1px solid var(--rule);
     border-radius: 0;
     background: transparent;
-    transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+    transition: border-color 180ms ease;
 }
 
 .publication-card:first-child {
@@ -1181,14 +1181,14 @@ body {
     padding-right: 0;
     padding-left: 0;
     border-color: rgba(99, 214, 255, 0.55);
-    background: rgba(99, 214, 255, 0.04);
-    box-shadow: inset 2px 0 0 var(--navy);
+    background: transparent;
+    box-shadow: none;
 }
 
 .publication-card picture {
     overflow: hidden;
     background: var(--paper-bright);
-    transition: box-shadow 180ms ease, transform 180ms ease;
+    transition: none;
 }
 
 .publication-thumb {
@@ -1196,16 +1196,12 @@ body {
     border: 0;
     border-radius: 0;
     background: var(--paper-bright);
-    transition: filter 180ms ease;
+    transition: none;
 }
 
 .publication-card:hover .publication-thumb {
     transform: none;
-    filter: saturate(1.08) contrast(1.04);
-}
-
-.publication-card:hover picture {
-    box-shadow: 0 0 0 1px rgba(99, 214, 255, 0.46), 0 14px 30px rgba(99, 214, 255, 0.08);
+    filter: none;
 }
 
 .publication-info h3 {
