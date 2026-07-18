@@ -686,6 +686,31 @@ body {
     font-weight: 700;
 }
 
+.masthead__menu-language a {
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid var(--rule);
+    color: var(--navy);
+    letter-spacing: 0.04em;
+}
+
+.page-lang-zh body,
+.page-lang-zh .home-hero__title,
+.page-lang-zh .research-practice__heading h2,
+.page-lang-zh .research-practice__list dt,
+.page-lang-zh .research-ledger__heading h2,
+.page-lang-zh .research-ledger__list h3,
+.page-lang-zh .timeline__entry h3 {
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+}
+
+.page-lang-zh .home-hero__title,
+.page-lang-zh .research-practice__heading h2,
+.page-lang-zh .research-ledger__heading h2 {
+    font-weight: 600;
+    letter-spacing: -0.055em;
+}
+
 .greedy-nav button {
     border-radius: 0;
     background: var(--ink);
@@ -1409,6 +1434,12 @@ body {
         margin: 0;
         padding: 0.6rem 0;
         font-size: 0.72rem;
+    }
+
+    .masthead__menu-language a {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: 0;
     }
 
     #main {
