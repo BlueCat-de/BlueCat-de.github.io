@@ -1083,15 +1083,32 @@ body {
 }
 
 .research-ledger__list li {
+    position: relative;
     display: grid;
     grid-template-columns: 82px minmax(0, 1fr);
     gap: 1.2rem;
     margin: 0;
-    padding: 1.25rem 0;
+    padding: 1.25rem 1rem 1.25rem 1.35rem;
     border-top: 1px solid var(--rule);
+    border-radius: 4px;
     background: transparent;
     box-shadow: none;
-    transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+    transition: background-color 180ms ease;
+}
+
+.research-ledger__list li:before {
+    position: absolute;
+    top: 0.85rem;
+    bottom: 0.85rem;
+    left: 0;
+    width: 3px;
+    border-radius: 999px;
+    background: var(--navy);
+    content: "";
+    opacity: 0;
+    transform: scaleY(0.55);
+    transform-origin: center;
+    transition: opacity 180ms ease, transform 180ms ease;
 }
 
 .research-ledger__list li:last-child {
@@ -1099,11 +1116,13 @@ body {
 }
 
 .research-ledger__list li:hover {
-    padding-left: 0;
-    border-color: rgba(99, 214, 255, 0.55);
     background: rgba(99, 214, 255, 0.045);
-    box-shadow: inset 2px 0 0 var(--navy);
     transform: none;
+}
+
+.research-ledger__list li:hover:before {
+    opacity: 1;
+    transform: scaleY(1);
 }
 
 .research-ledger__index {
