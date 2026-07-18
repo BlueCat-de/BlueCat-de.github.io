@@ -25,23 +25,23 @@ redirect_from:
   </a>
 </section>
 
-<section class="operating-profile reveal" aria-labelledby="operating-profile-title">
-  <div class="operating-profile__heading">
-    <p class="section-kicker">WHAT I BRING</p>
-    <h2 id="operating-profile-title">Research rigor, systems ownership, and applied judgment.</h2>
+<section class="research-practice reveal" aria-labelledby="research-practice-title">
+  <div class="research-practice__heading">
+    <p class="section-kicker">RESEARCH PRACTICE</p>
+    <h2 id="research-practice-title">From observation to intervention, I study how learning systems become more reliable.</h2>
   </div>
-  <dl class="operating-profile__list">
+  <dl class="research-practice__list">
     <div>
-      <dt>Frame</dt>
-      <dd>Turn open-ended, long-tail problems into measurable learning objectives and experiments.</dd>
+      <dt>Observe</dt>
+      <dd>Look for the patterns and failures hidden in long-tail data, scenarios, and real-world interaction.</dd>
     </div>
     <div>
-      <dt>Train</dt>
-      <dd>Design multimodal data, reward signals, and post-training loops for robust decision-making.</dd>
+      <dt>Construct</dt>
+      <dd>Build data, feedback, and evaluation methods that make learning objectives concrete.</dd>
     </div>
     <div>
-      <dt>Deliver</dt>
-      <dd>Carry work from research prototypes through evaluation workflows to production-facing model systems.</dd>
+      <dt>Reflect</dt>
+      <dd>Use evidence from experiments and interaction to understand where a model succeeds, fails, and can improve.</dd>
     </div>
   </dl>
 </section>

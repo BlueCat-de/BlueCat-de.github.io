@@ -930,12 +930,12 @@ body {
     transform: translateY(4px);
 }
 
-.operating-profile {
+.research-practice {
     padding: 4.6rem 0;
     border-bottom: 1px solid var(--ink);
 }
 
-.operating-profile__heading {
+.research-practice__heading {
     display: grid;
     grid-template-columns: minmax(160px, 0.45fr) 1fr;
     gap: 1.5rem;
@@ -943,12 +943,12 @@ body {
     margin-bottom: 2.6rem;
 }
 
-.operating-profile__heading .section-kicker {
+.research-practice__heading .section-kicker {
     margin-top: 0.45rem;
     color: var(--coral);
 }
 
-.operating-profile__heading h2 {
+.research-practice__heading h2 {
     max-width: 700px;
     margin: 0;
     color: var(--ink);
@@ -959,26 +959,26 @@ body {
     line-height: 1.02;
 }
 
-.operating-profile__list {
+.research-practice__list {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.25rem;
     margin: 0;
 }
 
-.operating-profile__list div {
+.research-practice__list div {
     min-height: 150px;
     padding: 1rem 0 0;
     border-top: 2px solid var(--ink);
     transition: border-color 180ms ease, transform 180ms ease;
 }
 
-.operating-profile__list div:hover {
+.research-practice__list div:hover {
     border-color: var(--coral);
     transform: translateY(-4px);
 }
 
-.operating-profile__list dt {
+.research-practice__list dt {
     margin: 0 0 0.65rem;
     color: var(--navy);
     font-family: "Iowan Old Style", "Baskerville", "Palatino Linotype", Georgia, serif;
@@ -987,7 +987,7 @@ body {
     letter-spacing: -0.025em;
 }
 
-.operating-profile__list dd {
+.research-practice__list dd {
     margin: 0;
     color: var(--muted);
     font-size: 0.9rem;
@@ -1447,25 +1447,25 @@ body {
         padding: 3.6rem 0;
     }
 
-    .operating-profile {
+    .research-practice {
         padding: 3.6rem 0;
     }
 
-    .operating-profile__heading {
+    .research-practice__heading {
         display: block;
         margin-bottom: 2rem;
     }
 
-    .operating-profile__heading h2 {
+    .research-practice__heading h2 {
         font-size: 2.35rem;
     }
 
-    .operating-profile__list {
+    .research-practice__list {
         grid-template-columns: 1fr;
         gap: 0;
     }
 
-    .operating-profile__list div {
+    .research-practice__list div {
         min-height: 0;
         padding: 1rem 0 1.25rem;
     }
