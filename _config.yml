@@ -66,6 +66,8 @@ include:
   - _pages
 exclude:
   - files
+  - 个人简历.pptx
+  - 个人简历.pdf
   - docs
   - google_scholar_crawler
   - "*.sublime-project"

@@ -10,17 +10,52 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<div class="intro-panel">
-  <p class="intro-lead">Hi, I am a second-year master's student in Department of Automation, Tsinghua University.</p>
-
-  <p class="intro-text">My research focuses on the application of multimodal large models, including autonomous driving and embodied intelligence. Beyond research, I am also exploring machine-empowered quantitative trading in my spare time. Feel free to reach out for discussion and collaboration.</p>
-
-  <div class="intro-tags" aria-label="Research focus areas">
-    <span>Multimodal Large Models</span>
-    <span>Autonomous Driving</span>
-    <span>Embodied Intelligence</span>
-    <span>Quantitative Trading</span>
+<section class="home-hero reveal" aria-labelledby="home-intro-title">
+  <p class="home-hero__eyebrow">QIMAO CHEN / RESEARCH NOTES</p>
+  <h1 id="home-intro-title" class="home-hero__title">Learning systems<br>for the <em>real world.</em></h1>
+  <div class="home-hero__copy">
+    <p class="home-hero__lead">Hi, I am a second-year master's student in the Department of Automation at Tsinghua University.</p>
+    <p>My research focuses on multimodal large models for autonomous driving and embodied intelligence. I am interested in how models can learn from long-tail data, reliable feedback, and real-world interaction. Beyond research, I also explore machine-empowered quantitative trading.</p>
   </div>
+  <a class="home-hero__jump" href="#publications">
+    <span>Selected work</span>
+    <span aria-hidden="true">↓</span>
+  </a>
+</section>
+
+<section class="research-ledger reveal" aria-labelledby="research-ledger-title">
+  <div class="research-ledger__heading">
+    <p class="section-kicker">RESEARCH THREADS</p>
+    <h2 id="research-ledger-title">A connected view of my work.</h2>
+  </div>
+  <ol class="research-ledger__list">
+    <li>
+      <span class="research-ledger__index">01</span>
+      <div>
+        <h3>Long-tail learning</h3>
+        <p>Constructing challenging data and scenarios for robust decision-making.</p>
+      </div>
+    </li>
+    <li>
+      <span class="research-ledger__index">02</span>
+      <div>
+        <h3>Multimodal evaluation</h3>
+        <p>Learning richer reward signals from visual context, rules, and intent.</p>
+      </div>
+    </li>
+    <li>
+      <span class="research-ledger__index">03</span>
+      <div>
+        <h3>Post-training agents</h3>
+        <p>Making VLA systems improve through failure feedback and interaction.</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<div class="section-intro reveal">
+  <p class="section-kicker">SELECTED RESEARCH</p>
+  <p>Representative work, ordered with first-author and co-first-author contributions first.</p>
 </div>
 
 <span class='anchor' id='publications'></span>
@@ -140,12 +175,40 @@ redirect_from:
 <span class='anchor' id='educations'></span>
 
 # Educations
-- *2024.09 - present*, Master's Student, Department of Automation, Tsinghua University, Beijing, China.
-- *2020.09 - 2024.07*, Undergraduate, Department of Automation, Tsinghua University, Beijing, China.
+<div class="timeline reveal" aria-label="Education timeline">
+  <article class="timeline__entry">
+    <time>2024.09 — present</time>
+    <div>
+      <h3>Master's Student</h3>
+      <p>Department of Automation, Tsinghua University, Beijing, China.</p>
+    </div>
+  </article>
+  <article class="timeline__entry">
+    <time>2020.09 — 2024.07</time>
+    <div>
+      <h3>Undergraduate</h3>
+      <p>Department of Automation, Tsinghua University, Beijing, China.</p>
+    </div>
+  </article>
+</div>
 
 
 <span class='anchor' id='internships'></span>
 
 # Internships
-- *2024.12 - 2026.04*, [Xiaomi EV](https://www.xiaomiev.com/), China.
-- *2026.04 - present*, [ByteDance](https://www.bytedance.com/en/), China.
+<div class="timeline reveal" aria-label="Internship timeline">
+  <article class="timeline__entry">
+    <time>2026.04 — present</time>
+    <div>
+      <h3><a href="https://www.bytedance.com/en/">ByteDance</a></h3>
+      <p>Post-training multimodal large models for e-commerce vertical scenarios, China.</p>
+    </div>
+  </article>
+  <article class="timeline__entry">
+    <time>2024.12 — 2026.04</time>
+    <div>
+      <h3><a href="https://www.xiaomiev.com/">Xiaomi EV</a></h3>
+      <p>End-to-end autonomous driving research internship, China.</p>
+    </div>
+  </article>
+</div>
