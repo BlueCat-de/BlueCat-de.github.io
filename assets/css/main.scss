@@ -607,14 +607,14 @@ body:before {
 
 /* Editorial homepage rebuild */
 :root {
-    --paper: #fafaf8;
-    --paper-bright: #ffffff;
-    --ink: #1d1d1f;
-    --muted: #6b7280;
-    --rule: #e5e5e0;
-    --navy: #2563eb;
-    --lime: #2563eb;
-    --coral: #2563eb;
+    --paper: #07111f;
+    --paper-bright: #0c1a2e;
+    --ink: #f3f7ff;
+    --muted: #aebed2;
+    --rule: rgba(164, 193, 228, 0.22);
+    --navy: #63d6ff;
+    --lime: #63d6ff;
+    --coral: #63d6ff;
 }
 
 html {
@@ -625,14 +625,16 @@ html {
 body {
     overflow-x: clip;
     background-color: var(--paper);
-    background-image: none;
+    background-image:
+        radial-gradient(circle at 82% -8%, rgba(35, 100, 196, 0.42), transparent 38%),
+        linear-gradient(145deg, #07111f 0%, #09182b 56%, #06101c 100%);
     color: var(--ink);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 .masthead {
     border-bottom: 1px solid var(--rule);
-    background: var(--paper);
+    background: #07111f;
     backdrop-filter: none;
 }
 
@@ -752,7 +754,7 @@ body {
 
 .author__urls {
     padding-top: 1rem;
-    border-top: 1px solid var(--ink);
+    border-top: 1px solid var(--rule);
     color: var(--muted);
     font-size: 0.8rem;
 }
@@ -771,7 +773,7 @@ body {
 
 .author__urls a:hover,
 .author__urls_sm a:hover {
-    color: var(--ink);
+    color: var(--navy);
     text-decoration: none;
 }
 
@@ -818,7 +820,7 @@ body {
 }
 
 .page__content a {
-    color: inherit;
+    color: var(--navy);
     font-weight: inherit;
     text-decoration-color: var(--coral);
     text-decoration-thickness: 1px;
@@ -827,7 +829,7 @@ body {
 
 .page__content a:hover {
     color: var(--navy);
-    text-decoration-color: var(--lime);
+    text-decoration-color: currentColor;
 }
 
 .home-hero {
@@ -990,7 +992,7 @@ body {
 }
 
 .research-ledger {
-    padding: 3.5rem 0;
+    padding: 2.4rem 0 3.5rem;
     border-bottom: 1px solid var(--rule);
 }
 
@@ -1004,6 +1006,7 @@ body {
 
 .research-ledger__heading .section-kicker {
     margin-top: 0.5rem;
+    color: var(--navy);
 }
 
 .research-ledger__heading h2 {
@@ -1047,7 +1050,7 @@ body {
 }
 
 .research-ledger__index {
-    color: var(--muted);
+    color: var(--navy);
     font-size: 0.75rem;
     font-weight: 800;
     letter-spacing: 0.08em;
@@ -1084,7 +1087,7 @@ body {
 }
 
 .section-intro .section-kicker {
-    color: var(--muted);
+    color: var(--navy);
 }
 
 .publication-list {
