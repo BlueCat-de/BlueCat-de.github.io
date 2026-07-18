@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Qimao Chen"
+  name             : "Qimao Chen (陈其茂)"
   avatar           : "images/me.jpg"
   bio              : "MLLM / Decision Intelligence"
   location         : "Beijing, China"
