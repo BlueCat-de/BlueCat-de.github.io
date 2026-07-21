@@ -1052,7 +1052,7 @@ body {
     color: var(--navy);
 }
 
-.research-ledger__heading h2 {
+.research-ledger__summary h2 {
     max-width: 570px;
     margin: 0;
     color: var(--ink);
@@ -1061,6 +1061,14 @@ body {
     font-weight: 600;
     letter-spacing: -0.04em;
     line-height: 1.16;
+}
+
+.research-ledger__summary p {
+    max-width: 620px;
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    font-size: 0.92rem;
+    line-height: 1.58;
 }
 
 .research-ledger__list {
@@ -1609,8 +1617,13 @@ body {
         margin-bottom: 2rem;
     }
 
-    .research-ledger__heading h2 {
+    .research-ledger__summary h2 {
         font-size: 1.65rem;
+    }
+
+    .research-ledger__summary p {
+        margin-top: 0.65rem;
+        font-size: 0.9rem;
     }
 
     .research-ledger__list li {

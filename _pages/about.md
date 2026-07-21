@@ -13,9 +13,10 @@ redirect_from:
 <section class="home-hero reveal" aria-labelledby="home-intro-title">
   <h1 id="home-intro-title" class="home-hero__title">About me.</h1>
   <div class="home-hero__copy">
-    <p class="home-hero__lead">Hi, I am a second-year master's student in the Department of Automation at Tsinghua University.</p>
-    <p>My research focuses on multimodal large models for autonomous driving and embodied intelligence. I am interested in how models can learn from long-tail data, reliable feedback, and real-world interaction. Beyond research, I also explore machine-empowered quantitative trading.</p>
-    <p class="home-hero__belief">I believe the world is governed by patterns waiting to be observed. By collecting data and using machines for rigorous statistical analysis, we can turn complex phenomena into evidence, understanding, and better decisions.</p>
+    <p class="home-hero__lead">I study how multimodal decision systems can learn reliably and improve continuously in the real world.</p>
+    <p>Hi, I am a second-year master's student in the Department of Automation at Tsinghua University. My work follows a closed learning loop: constructing long-tail data, learning grounded reward signals, and post-training agents through failure feedback and interaction.</p>
+    <p>I am particularly interested in autonomous driving and embodied intelligence. I also explore quantitative research as an independent application of the same discipline: forming hypotheses from data and making decisions under uncertainty.</p>
+    <p class="home-hero__belief">I believe complex systems become understandable when their patterns are observed rigorously. Good data, explicit feedback, and careful statistical analysis turn those observations into better decisions.</p>
     <p class="home-hero__contact">Feel free to reach out for discussion or collaboration.</p>
   </div>
   <a class="home-hero__jump" href="#publications">
@@ -27,7 +28,10 @@ redirect_from:
 <section class="research-ledger reveal" aria-labelledby="research-ledger-title">
   <div class="research-ledger__heading">
     <p class="section-kicker">RESEARCH THREADS</p>
-    <h2 id="research-ledger-title">A connected view of my work.</h2>
+    <div class="research-ledger__summary">
+      <h2 id="research-ledger-title">From data and feedback to better decisions.</h2>
+      <p>Across my work, the same question recurs: how can a system encounter failures, receive grounded feedback, and become more reliable after each iteration?</p>
+    </div>
   </div>
   <ol class="research-ledger__list">
     <li>
@@ -195,7 +199,7 @@ redirect_from:
     <time>2026.04 — present</time>
     <div>
       <h3><a href="https://www.bytedance.com/en/">ByteDance</a></h3>
-      <p>Post-training multimodal large models for content understanding, China.</p>
+      <p>Post-training multimodal models for e-commerce content understanding, China.</p>
     </div>
   </article>
   <article class="timeline__entry">
