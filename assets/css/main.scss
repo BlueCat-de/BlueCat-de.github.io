@@ -660,17 +660,43 @@ body {
 }
 
 .masthead {
+    position: sticky;
     isolation: isolate;
-    border-bottom: 1px solid rgba(164, 193, 228, 0.18);
+    overflow: visible;
+    border-bottom: 0;
     background: rgba(7, 17, 31, 0.76);
     box-shadow:
-        inset 0 1px 0 rgba(255, 255, 255, 0.025),
-        0 8px 28px rgba(0, 5, 14, 0.1);
+        inset 0 1px 0 rgba(255, 255, 255, 0.025);
     -webkit-backdrop-filter: saturate(135%) blur(16px);
     backdrop-filter: saturate(135%) blur(16px);
 }
 
+.masthead:after {
+    position: absolute;
+    z-index: 0;
+    top: calc(100% - 1px);
+    right: 0;
+    left: 0;
+    height: 32px;
+    background: linear-gradient(
+        to bottom,
+        rgba(7, 17, 31, 0.38) 0%,
+        rgba(7, 17, 31, 0.18) 38%,
+        rgba(7, 17, 31, 0.055) 68%,
+        transparent 100%
+    );
+    content: "";
+    pointer-events: none;
+    -webkit-backdrop-filter: saturate(125%) blur(14px);
+    backdrop-filter: saturate(125%) blur(14px);
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.7) 42%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.7) 42%, transparent 100%);
+    transition: opacity 160ms ease;
+}
+
 .masthead__inner-wrap {
+    position: relative;
+    z-index: 1;
     max-width: 1240px;
     padding: 0.75rem 1.5rem;
 }
@@ -1509,18 +1535,33 @@ body {
 
     .masthead {
         z-index: 50;
-        border-bottom-color: rgba(164, 193, 228, 0.18);
         background: rgba(7, 17, 31, 0.72);
         box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.035),
-            0 8px 28px rgba(0, 5, 14, 0.12);
+            inset 0 1px 0 rgba(255, 255, 255, 0.035);
         -webkit-backdrop-filter: saturate(145%) blur(18px);
         backdrop-filter: saturate(145%) blur(18px);
     }
 
+    .masthead:after {
+        height: 22px;
+        background: linear-gradient(
+            to bottom,
+            rgba(7, 17, 31, 0.34) 0%,
+            rgba(7, 17, 31, 0.12) 46%,
+            transparent 100%
+        );
+        -webkit-backdrop-filter: saturate(130%) blur(11px);
+        backdrop-filter: saturate(130%) blur(11px);
+        -webkit-mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.62) 44%, transparent 100%);
+        mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.62) 44%, transparent 100%);
+    }
+
     html.mobile-nav-open .masthead {
-        border-bottom-color: rgba(99, 214, 255, 0.2);
         background: rgba(7, 17, 31, 0.86);
+    }
+
+    html.mobile-nav-open .masthead:after {
+        opacity: 0;
     }
 
     .masthead__inner-wrap {
