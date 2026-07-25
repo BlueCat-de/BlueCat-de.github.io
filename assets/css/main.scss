@@ -686,6 +686,10 @@ body {
     background: var(--ink);
 }
 
+.mobile-nav-backdrop {
+    display: none;
+}
+
 @media (min-width: 641px) {
     .greedy-nav button {
         display: none;
@@ -1462,80 +1466,178 @@ body {
         background-size: auto;
     }
 
+    html.mobile-nav-open,
+    html.mobile-nav-open body {
+        overflow: hidden;
+    }
+
+    .masthead {
+        z-index: 50;
+    }
+
     .masthead__inner-wrap {
-        padding: 0.7rem 1rem;
+        position: relative;
+        min-height: 3.5rem;
+        padding: 0.75rem 1rem;
     }
 
     .greedy-nav {
         min-width: 0;
+        min-height: 2rem;
         background: transparent;
     }
 
-    .greedy-nav button {
-        position: relative;
-        float: right;
-        width: 40px;
-        height: 32px;
-        padding: 0;
-        border: 1px solid var(--rule);
-        border-radius: 6px;
+    .greedy-nav .mobile-nav-toggle {
+        position: absolute;
+        z-index: 34;
+        top: 50%;
+        right: 0;
+        display: inline-flex;
+        gap: 0.65rem;
+        align-items: center;
+        width: auto;
+        height: 2.5rem;
+        padding: 0 0.15rem;
+        border: 0;
+        border-radius: 0;
         background: transparent;
         box-shadow: none;
+        color: var(--muted);
+        font-family: inherit;
+        cursor: pointer;
+        transform: translateY(-50%);
+        transition: color 180ms ease;
     }
 
-    .greedy-nav button:hover,
-    .greedy-nav button:focus-visible {
-        border-color: var(--navy);
-        background: rgba(99, 214, 255, 0.08);
-        outline: none;
-    }
-
-    .greedy-nav .navicon,
-    .greedy-nav .navicon:before,
-    .greedy-nav .navicon:after {
-        background: var(--navy);
-    }
-
-    .greedy-nav .navicon {
-        transform: scale(0.84);
-    }
-
-    .greedy-nav button.close .navicon {
+    .greedy-nav .mobile-nav-toggle:hover,
+    .greedy-nav .mobile-nav-toggle[aria-expanded="true"] {
         background: transparent;
+        color: var(--ink);
     }
 
-    .greedy-nav button.close .navicon:before,
-    .greedy-nav button.close .navicon:after {
-        background: var(--navy);
+    .greedy-nav .mobile-nav-toggle:focus-visible {
+        outline: 1px solid var(--navy);
+        outline-offset: 5px;
+    }
+
+    .mobile-nav-toggle__label {
+        font-size: 0.68rem;
+        font-weight: 600;
+        letter-spacing: 0.09em;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    .mobile-nav-toggle__icon {
+        position: relative;
+        display: block;
+        width: 18px;
+        height: 12px;
+    }
+
+    .mobile-nav-toggle__icon span {
+        position: absolute;
+        left: 0;
+        width: 18px;
+        height: 1px;
+        background: currentColor;
+        transform-origin: center;
+        transition: top 180ms ease, transform 180ms ease;
+    }
+
+    .mobile-nav-toggle__icon span:first-child {
+        top: 2px;
+    }
+
+    .mobile-nav-toggle__icon span:last-child {
+        top: 9px;
+    }
+
+    .mobile-nav-toggle[aria-expanded="true"] .mobile-nav-toggle__icon span:first-child {
+        top: 5px;
+        transform: rotate(45deg);
+    }
+
+    .mobile-nav-toggle[aria-expanded="true"] .mobile-nav-toggle__icon span:last-child {
+        top: 5px;
+        transform: rotate(-45deg);
     }
 
     .greedy-nav .visible-links {
-        display: none;
+        position: fixed;
+        z-index: 33;
+        top: var(--mobile-nav-top, 3.5rem);
+        right: 0;
+        left: 0;
+        display: grid;
+        max-height: calc(100vh - var(--mobile-nav-top, 3.5rem));
+        max-height: calc(100dvh - var(--mobile-nav-top, 3.5rem));
+        padding: 0.55rem max(1rem, calc((100vw - 680px) / 2 + 0.75rem)) 0.85rem;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        border-bottom: 1px solid var(--rule);
+        background: var(--paper-bright);
+        box-shadow: none;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        pointer-events: none;
+        transition: opacity 180ms ease, transform 180ms ease, visibility 180ms ease;
     }
 
     .greedy-nav.menu-open .visible-links {
-        position: absolute;
-        top: calc(100% + 0.65rem);
-        right: 0;
-        display: flex;
-        flex-direction: column;
-        min-width: 190px;
-        padding: 0.5rem 0.85rem;
-        border: 1px solid var(--rule);
-        background: var(--paper-bright);
-        box-shadow: none;
-        z-index: 20;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        pointer-events: auto;
     }
 
-    .greedy-nav.menu-open .visible-links li {
+    .greedy-nav .visible-links li {
         display: block;
         width: 100%;
+        border-top: 1px solid var(--rule);
     }
 
-    .greedy-nav.menu-open .visible-links a {
+    .greedy-nav .visible-links li:first-child {
+        border-top: 0;
+    }
+
+    .greedy-nav .visible-links a {
         margin: 0;
-        padding: 0.6rem 0;
-        font-size: 0.72rem;
+        padding: 0.85rem 0;
+        color: var(--muted);
+        font-size: 0.74rem;
+        letter-spacing: 0.09em;
+    }
+
+    .greedy-nav .visible-links a:after {
+        display: none;
+    }
+
+    .greedy-nav .visible-links a:hover,
+    .greedy-nav .visible-links a[aria-current="true"] {
+        color: var(--ink);
+    }
+
+    .mobile-nav-backdrop {
+        position: fixed;
+        z-index: 32;
+        top: var(--mobile-nav-top, 3.5rem);
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        background: rgba(2, 8, 18, 0.56);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 180ms ease, visibility 180ms ease;
+    }
+
+    .greedy-nav.menu-open .mobile-nav-backdrop {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
     }
 
     #main {

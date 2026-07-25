@@ -2,14 +2,20 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button type="button" aria-label="Toggle navigation menu" aria-expanded="false"><div class="navicon"></div></button>
-        <ul class="visible-links">
+        <button class="mobile-nav-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-navigation" aria-expanded="false">
+          <span class="mobile-nav-toggle__label">Menu</span>
+          <span class="mobile-nav-toggle__icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+        <ul id="mobile-navigation" class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <div class="mobile-nav-backdrop" aria-hidden="true"></div>
       </nav>
     </div>
   </div>
