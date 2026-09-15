@@ -14,7 +14,7 @@ redirect_from:
   <h1 id="home-intro-title" class="home-hero__title">About me.</h1>
   <div class="home-hero__copy">
     <p class="home-hero__lead">I study how multimodal decision systems can learn reliably and improve continuously in the real world.</p>
-    <p>Hi, I am a second-year master's student in the Department of Automation at Tsinghua University. My work follows a closed learning loop: constructing long-tail data, learning grounded reward signals, and post-training agents through failure feedback and interaction.</p>
+    <p>Hi, I am a third-year master's student in the Department of Automation at Tsinghua University. My work follows a closed learning loop: constructing long-tail data, learning grounded reward signals, and post-training agents through failure feedback and interaction.</p>
     <p>I am particularly interested in autonomous driving and embodied intelligence. I also explore quantitative research as an independent application of the same discipline: forming hypotheses from data and making decisions under uncertainty.</p>
     <p class="home-hero__belief">I believe complex systems become understandable when their patterns are observed rigorously. Good data, explicit feedback, and careful statistical analysis turn those observations into better decisions.</p>
     <p class="home-hero__contact">Feel free to reach out for discussion or collaboration.</p>
@@ -153,7 +153,10 @@ redirect_from:
     </div>
   </article>
 
-  <article class="publication-card publication-card--no-thumb">
+  <article class="publication-card">
+    <picture>
+      <img class="publication-thumb" src="/images/publications/thumbs/world_in_loop_thumb.jpg" srcset="/images/publications/thumbs/world_in_loop_thumb_360.jpg 360w, /images/publications/thumbs/world_in_loop_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="World-in-Loop main figure" width="600" height="221" loading="lazy" decoding="async">
+    </picture>
     <div class="publication-info">
       <div class="publication-venue">ECCV 2026</div>
       <h3>World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies</h3>
@@ -196,7 +199,7 @@ redirect_from:
 # Internships
 <div class="timeline reveal" aria-label="Internship timeline">
   <article class="timeline__entry">
-    <time>2026.04 — present</time>
+    <time>2026.04 — 2026.08</time>
     <div>
       <h3><a href="https://www.bytedance.com/en/">ByteDance</a></h3>
       <p>Post-training multimodal models for e-commerce content understanding, China.</p>
