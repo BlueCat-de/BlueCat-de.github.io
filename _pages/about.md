@@ -3,6 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+google_scholar_stats: true
 redirect_from: 
   - /about/
   - /about.html
@@ -89,6 +90,7 @@ redirect_from:
       <p class="publication-authors"><strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Yuechen Luo, Zehan Zhang, Haiyang Sun, Fangzhen Li, Bing Wang, Yang Ji, Jiong Deng, Hongwei Xie, Hangjun Ye, Long Chen, Yi Zhang</p>
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2606.08525">arXiv</a>
+        <span class='show_paper_citations'></span>
       </div>
     </div>
   </article>
@@ -103,6 +105,7 @@ redirect_from:
       <p class="publication-authors">Yuechen Luo<sup>*</sup>, <strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Shaoqing Xu, Jiaxin Liu, Ziying Song, Zhi-Xin Yang, Fuxi Wen</p>
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2603.01063">arXiv</a>
+        <span class='show_paper_citations'></span>
       </div>
     </div>
   </article>
@@ -117,6 +120,7 @@ redirect_from:
       <p class="publication-authors"><strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Shaoqing Xu<sup>*</sup>, Zhiyi Lai, Zixun Xie, Yuechen Luo, Shengyin Jiang, Hanbing Li, Long Chen, Bing Wang, Yi Zhang, Zhi-Xin Yang</p>
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2601.12672">arXiv</a>
+        <span class='show_paper_citations'></span>
       </div>
     </div>
   </article>
@@ -131,6 +135,7 @@ redirect_from:
       <p class="publication-authors">Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, <strong>Qimao Chen</strong>, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang</p>
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2509.13769">arXiv</a>
+        <span class='show_paper_citations'></span>
       </div>
     </div>
   </article>
@@ -146,6 +151,7 @@ redirect_from:
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2409.08687">arXiv</a>
         <a href="https://github.com/t6-thu/xTED">GitHub</a>
+        <span class='show_paper_citations'></span>
       </div>
     </div>
   </article>
@@ -160,6 +166,7 @@ redirect_from:
       <p class="publication-authors">Haoyi Niu<sup>*</sup>, <strong>Qimao Chen</strong><sup>*</sup>, Yingyue Li and Jianming Hu</p>
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2309.14235">arXiv</a>
+        <span class='show_paper_citations'></span>
       </div>
     </div>
   </article>
