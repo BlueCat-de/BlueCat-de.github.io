@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<section class="home-hero reveal" aria-labelledby="home-intro-title">
+<section class="home-hero" aria-labelledby="home-intro-title">
   <h1 id="home-intro-title" class="home-hero__title">About me.</h1>
   <div class="home-hero__copy">
     <p class="home-hero__lead">I study how multimodal decision systems can learn reliably and improve continuously in the real world.</p>
@@ -175,7 +175,7 @@ redirect_from:
 
 <span class='anchor' id='educations'></span>
 
-# Educations
+# Education
 <div class="timeline reveal" aria-label="Education timeline">
   <article class="timeline__entry">
     <time>2024.09 — present</time>
