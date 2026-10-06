@@ -60,7 +60,7 @@ redirect_from:
 
 <div class="section-intro reveal">
   <p class="section-kicker">SELECTED RESEARCH</p>
-  <p>Representative work, ordered with first-author and co-first-author contributions first.</p>
+  <p>Representative work, ordered by publication date, newest first.</p>
 </div>
 
 <span class='anchor' id='publications'></span>
@@ -70,7 +70,18 @@ redirect_from:
 <div class="publication-list">
   <article class="publication-card">
     <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/drive_reward_thumb.jpg" srcset="/images/publications/thumbs/drive_reward_thumb_360.jpg 360w, /images/publications/thumbs/drive_reward_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="DriveReward main figure" width="600" height="208" loading="eager" decoding="async" fetchpriority="high">
+      <img class="publication-thumb" src="/images/publications/thumbs/world_in_loop_thumb.jpg" srcset="/images/publications/thumbs/world_in_loop_thumb_360.jpg 360w, /images/publications/thumbs/world_in_loop_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="World-in-Loop main figure" width="600" height="221" loading="eager" decoding="async" fetchpriority="high">
+    </picture>
+    <div class="publication-info">
+      <div class="publication-venue">ECCV 2026</div>
+      <h3>World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies</h3>
+      <p class="publication-authors">Shaoqing Xu, Fang Li, Yuechen Luo, <strong>Qimao Chen</strong>, Zhixiang Duan, Yifan Yang, Long Chen, Zhi-Xin Yang</p>
+    </div>
+  </article>
+
+  <article class="publication-card">
+    <picture>
+      <img class="publication-thumb" src="/images/publications/thumbs/drive_reward_thumb.jpg" srcset="/images/publications/thumbs/drive_reward_thumb_360.jpg 360w, /images/publications/thumbs/drive_reward_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="DriveReward main figure" width="600" height="208" loading="lazy" decoding="async">
     </picture>
     <div class="publication-info">
       <div class="publication-venue publication-venue--preprint">Preprint</div>
@@ -78,6 +89,20 @@ redirect_from:
       <p class="publication-authors"><strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Yuechen Luo, Zehan Zhang, Haiyang Sun, Fangzhen Li, Bing Wang, Yang Ji, Jiong Deng, Hongwei Xie, Hangjun Ye, Long Chen, Yi Zhang</p>
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2606.08525">arXiv</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-card">
+    <picture>
+      <img class="publication-thumb" src="/images/publications/thumbs/elf_vla_thumb.jpg" srcset="/images/publications/thumbs/elf_vla_thumb_360.jpg 360w, /images/publications/thumbs/elf_vla_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="ELF-VLA main figure" width="600" height="343" loading="lazy" decoding="async">
+    </picture>
+    <div class="publication-info">
+      <div class="publication-venue">CVPR 2026</div>
+      <h3>Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures</h3>
+      <p class="publication-authors">Yuechen Luo<sup>*</sup>, <strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Shaoqing Xu, Jiaxin Liu, Ziying Song, Zhi-Xin Yang, Fuxi Wen</p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2603.01063">arXiv</a>
       </div>
     </div>
   </article>
@@ -98,14 +123,14 @@ redirect_from:
 
   <article class="publication-card">
     <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/elf_vla_thumb.jpg" srcset="/images/publications/thumbs/elf_vla_thumb_360.jpg 360w, /images/publications/thumbs/elf_vla_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="ELF-VLA main figure" width="600" height="343" loading="lazy" decoding="async">
+      <img class="publication-thumb" src="/images/publications/thumbs/adathinkdrive_thumb.jpg" srcset="/images/publications/thumbs/adathinkdrive_thumb_360.jpg 360w, /images/publications/thumbs/adathinkdrive_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="AdaThinkDrive main figure" width="600" height="274" loading="lazy" decoding="async">
     </picture>
     <div class="publication-info">
-      <div class="publication-venue">CVPR 2026</div>
-      <h3>Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures</h3>
-      <p class="publication-authors">Yuechen Luo<sup>*</sup>, <strong>Qimao Chen</strong><sup>*</sup>, Fang Li<sup>*</sup>, Shaoqing Xu, Jiaxin Liu, Ziying Song, Zhi-Xin Yang, Fuxi Wen</p>
+      <div class="publication-venue">ICRA 2026</div>
+      <h3>AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving</h3>
+      <p class="publication-authors">Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, <strong>Qimao Chen</strong>, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang</p>
       <div class="publication-links">
-        <a href="https://arxiv.org/abs/2603.01063">arXiv</a>
+        <a href="https://arxiv.org/abs/2509.13769">arXiv</a>
       </div>
     </div>
   </article>
@@ -136,31 +161,6 @@ redirect_from:
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2309.14235">arXiv</a>
       </div>
-    </div>
-  </article>
-
-  <article class="publication-card">
-    <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/adathinkdrive_thumb.jpg" srcset="/images/publications/thumbs/adathinkdrive_thumb_360.jpg 360w, /images/publications/thumbs/adathinkdrive_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="AdaThinkDrive main figure" width="600" height="274" loading="lazy" decoding="async">
-    </picture>
-    <div class="publication-info">
-      <div class="publication-venue">ICRA 2026</div>
-      <h3>AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving</h3>
-      <p class="publication-authors">Yuechen Luo, Fang Li, Shaoqing Xu, Zhiyi Lai, Lei Yang, <strong>Qimao Chen</strong>, Ziang Luo, Zixun Xie, Shengyin Jiang, Jiaxin Liu, Long Chen, Bing Wang, Zhi-xin Yang</p>
-      <div class="publication-links">
-        <a href="https://arxiv.org/abs/2509.13769">arXiv</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="publication-card">
-    <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/world_in_loop_thumb.jpg" srcset="/images/publications/thumbs/world_in_loop_thumb_360.jpg 360w, /images/publications/thumbs/world_in_loop_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="World-in-Loop main figure" width="600" height="221" loading="lazy" decoding="async">
-    </picture>
-    <div class="publication-info">
-      <div class="publication-venue">ECCV 2026</div>
-      <h3>World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies</h3>
-      <p class="publication-authors">Shaoqing Xu, Fang Li, Yuechen Luo, <strong>Qimao Chen</strong>, Zhixiang Duan, Yifan Yang, Long Chen, Zhi-Xin Yang</p>
     </div>
   </article>
 </div>
