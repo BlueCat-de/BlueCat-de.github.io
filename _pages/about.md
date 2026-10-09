@@ -77,6 +77,10 @@ redirect_from:
       <div class="publication-venue">ECCV 2026</div>
       <h3>World-in-Loop: Online Correction via Event-Triggered World Models for Robust VLA Policies</h3>
       <p class="publication-authors">Shaoqing Xu, Fang Li, Yuechen Luo, <strong>Qimao Chen</strong>, Zhixiang Duan, Yifan Yang, Long Chen, Zhi-Xin Yang</p>
+      <div class="publication-links">
+        <a href="https://link.springer.com/chapter/10.1007/978-3-032-37083-9_37">Springer</a>
+        <span class='show_paper_citations'></span>
+      </div>
     </div>
   </article>
 
