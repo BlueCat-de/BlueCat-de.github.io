@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
+excerpt: "Multimodal decision systems, autonomous driving, and embodied intelligence research by Qimao Chen at Tsinghua University."
 author_profile: true
 google_scholar_stats: true
 redirect_from: 
@@ -66,12 +66,12 @@ redirect_from:
 
 <span class='anchor' id='publications'></span>
 
-# Publications and Preprints
+## Publications and Preprints
 
-<div class="publication-list">
+<div id="publication-list" class="publication-list">
   <article class="publication-card">
     <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/world_in_loop_thumb.jpg" srcset="/images/publications/thumbs/world_in_loop_thumb_360.jpg 360w, /images/publications/thumbs/world_in_loop_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="World-in-Loop main figure" width="600" height="221" loading="eager" decoding="async" fetchpriority="high">
+      <img class="publication-thumb" src="/images/publications/thumbs/world_in_loop_thumb.jpg" srcset="/images/publications/thumbs/world_in_loop_thumb_360.jpg 360w, /images/publications/thumbs/world_in_loop_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 250px" alt="World-in-Loop main figure" width="600" height="221" loading="eager" decoding="async" fetchpriority="high">
     </picture>
     <div class="publication-info">
       <div class="publication-venue">ECCV 2026</div>
@@ -86,7 +86,7 @@ redirect_from:
 
   <article class="publication-card">
     <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/drive_reward_thumb.jpg" srcset="/images/publications/thumbs/drive_reward_thumb_360.jpg 360w, /images/publications/thumbs/drive_reward_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="DriveReward main figure" width="600" height="208" loading="lazy" decoding="async">
+      <img class="publication-thumb" src="/images/publications/thumbs/drive_reward_thumb.jpg" srcset="/images/publications/thumbs/drive_reward_thumb_360.jpg 360w, /images/publications/thumbs/drive_reward_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 250px" alt="DriveReward main figure" width="600" height="208" loading="lazy" decoding="async">
     </picture>
     <div class="publication-info">
       <div class="publication-venue publication-venue--preprint">Preprint</div>
@@ -101,7 +101,7 @@ redirect_from:
 
   <article class="publication-card">
     <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/elf_vla_thumb.jpg" srcset="/images/publications/thumbs/elf_vla_thumb_360.jpg 360w, /images/publications/thumbs/elf_vla_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="ELF-VLA main figure" width="600" height="343" loading="lazy" decoding="async">
+      <img class="publication-thumb" src="/images/publications/thumbs/elf_vla_thumb.jpg" srcset="/images/publications/thumbs/elf_vla_thumb_360.jpg 360w, /images/publications/thumbs/elf_vla_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 250px" alt="ELF-VLA main figure" width="600" height="343" loading="lazy" decoding="async">
     </picture>
     <div class="publication-info">
       <div class="publication-venue">CVPR 2026</div>
@@ -116,7 +116,7 @@ redirect_from:
 
   <article class="publication-card">
     <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/vilta_thumb.jpg" srcset="/images/publications/thumbs/vilta_thumb_360.jpg 360w, /images/publications/thumbs/vilta_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="VILTA main figure" width="600" height="327" loading="lazy" decoding="async">
+      <img class="publication-thumb" src="/images/publications/thumbs/vilta_thumb.jpg" srcset="/images/publications/thumbs/vilta_thumb_360.jpg 360w, /images/publications/thumbs/vilta_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 250px" alt="VILTA main figure" width="600" height="327" loading="lazy" decoding="async">
     </picture>
     <div class="publication-info">
       <div class="publication-venue">AAAI 2026</div>
@@ -131,7 +131,7 @@ redirect_from:
 
   <article class="publication-card">
     <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/adathinkdrive_thumb.jpg" srcset="/images/publications/thumbs/adathinkdrive_thumb_360.jpg 360w, /images/publications/thumbs/adathinkdrive_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="AdaThinkDrive main figure" width="600" height="274" loading="lazy" decoding="async">
+      <img class="publication-thumb" src="/images/publications/thumbs/adathinkdrive_thumb.jpg" srcset="/images/publications/thumbs/adathinkdrive_thumb_360.jpg 360w, /images/publications/thumbs/adathinkdrive_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 250px" alt="AdaThinkDrive main figure" width="600" height="274" loading="lazy" decoding="async">
     </picture>
     <div class="publication-info">
       <div class="publication-venue">ICRA 2026</div>
@@ -146,7 +146,7 @@ redirect_from:
 
   <article class="publication-card">
     <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/xted_thumb.jpg" srcset="/images/publications/thumbs/xted_thumb_360.jpg 360w, /images/publications/thumbs/xted_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="xTED main figure" width="600" height="182" loading="lazy" decoding="async">
+      <img class="publication-thumb" src="/images/publications/thumbs/xted_thumb.jpg" srcset="/images/publications/thumbs/xted_thumb_360.jpg 360w, /images/publications/thumbs/xted_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 250px" alt="xTED main figure" width="600" height="182" loading="lazy" decoding="async">
     </picture>
     <div class="publication-info">
       <div class="publication-venue">AAMAS 2026</div>
@@ -162,7 +162,7 @@ redirect_from:
 
   <article class="publication-card">
     <picture>
-      <img class="publication-thumb" src="/images/publications/thumbs/sdm_stackelberg_thumb.jpg" srcset="/images/publications/thumbs/sdm_stackelberg_thumb_360.jpg 360w, /images/publications/thumbs/sdm_stackelberg_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 300px" alt="Stackelberg autonomous-background vehicle modeling main figure" width="600" height="292" loading="lazy" decoding="async">
+      <img class="publication-thumb" src="/images/publications/thumbs/sdm_stackelberg_thumb.jpg" srcset="/images/publications/thumbs/sdm_stackelberg_thumb_360.jpg 360w, /images/publications/thumbs/sdm_stackelberg_thumb.jpg 600w" sizes="(max-width: 640px) calc(100vw - 2rem), (max-width: 924px) 260px, 250px" alt="Stackelberg autonomous-background vehicle modeling main figure" width="600" height="292" loading="lazy" decoding="async">
     </picture>
     <div class="publication-info">
       <div class="publication-venue">NeurIPS 2023 ML4AD Workshop</div>
@@ -186,7 +186,7 @@ redirect_from:
 
 <span class='anchor' id='educations'></span>
 
-# Education
+## Education
 <div class="timeline reveal" aria-label="Education timeline">
   <article class="timeline__entry">
     <time>2024.09 — present</time>
@@ -207,7 +207,7 @@ redirect_from:
 
 <span class='anchor' id='internships'></span>
 
-# Internships
+## Internships
 <div class="timeline reveal" aria-label="Internship timeline">
   <article class="timeline__entry">
     <time>2026.04 — 2026.08</time>

@@ -6,6 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+url                      : "https://bluecat-de.github.io"
+baseurl                  : ""
 title                    : "Qimao Chen"
 description              : "Master's Student at Department of Automation, Tsinghua University. Researching multimodal large models for autonomous driving and embodied intelligence."
 repository               : "BlueCat-de/BlueCat-de.github.io"
@@ -84,7 +86,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
   - config

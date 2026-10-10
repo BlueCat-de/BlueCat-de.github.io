@@ -50,6 +50,11 @@
         button.setAttribute("aria-expanded", open ? "true" : "false");
         button.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
         panel.setAttribute("aria-hidden", isMobile && !open ? "true" : "false");
+        panel.inert = isMobile && !open;
+        document.getElementById("main").inert = open;
+        if (open && menuLinks.length) requestAnimationFrame(function () {
+          if (nav.classList.contains("menu-open")) menuLinks[0].focus();
+        });
         if (label) label.textContent = open ? "Close" : "Menu";
         if (!open && returnFocus) button.focus();
       }
@@ -57,13 +62,13 @@
       syncMobileLayers();
       syncNavTop();
       window.addEventListener("resize", function () {
-        if (!mobileQuery.matches) setMenu(false, false);
+        setMenu(false, nav.classList.contains("menu-open"));
         syncMobileLayers();
         syncNavTop();
       }, { passive: true });
 
       if (button && panel && backdrop) {
-        panel.setAttribute("aria-hidden", mobileQuery.matches ? "true" : "false");
+        setMenu(false, false);
 
         button.addEventListener("click", function () {
           setMenu(button.getAttribute("aria-expanded") !== "true", false);
@@ -76,6 +81,11 @@
         menuLinks.forEach(function (link) {
           link.addEventListener("click", function () {
             setMenu(false, false);
+            var target = document.getElementById(link.hash.slice(1));
+            if (target) {
+              target.setAttribute("tabindex", "-1");
+              target.focus({ preventScroll: true });
+            }
           });
         });
 
@@ -94,26 +104,13 @@
           }
           if (event.key !== "Tab") return;
           var focusable = [button].concat(menuLinks);
-          var first = focusable[0];
-          var last = focusable[focusable.length - 1];
-          if (event.shiftKey && document.activeElement === first) {
-            event.preventDefault();
-            last.focus();
-          } else if (!event.shiftKey && document.activeElement === last) {
-            event.preventDefault();
-            first.focus();
-          }
+          event.preventDefault();
+          var index = focusable.indexOf(document.activeElement);
+          var next = (index + (event.shiftKey ? -1 : 1) + focusable.length) % focusable.length;
+          focusable[next].focus();
         });
       }
     }
-
-    var urls = document.querySelector(".author__urls");
-    function syncAuthorUrls() {
-      if (!urls) return;
-      urls.style.display = window.innerWidth > 925 ? "block" : "none";
-    }
-    syncAuthorUrls();
-    window.addEventListener("resize", syncAuthorUrls, { passive: true });
 
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     var reveal = document.querySelectorAll(".reveal,.publication-card,.timeline__entry");
@@ -122,6 +119,7 @@
         item.classList.add("is-visible");
       });
     } else {
+      document.documentElement.classList.add("reveal-ready");
       var observer = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
@@ -135,7 +133,7 @@
       });
     }
 
-    var links = document.querySelectorAll('.greedy-nav a[href*="#"]');
+    var links = document.querySelectorAll('#mobile-navigation a[href*="#"]');
     var sections = [];
     links.forEach(function (link) {
       var hash = link.getAttribute("href").split("#")[1];
@@ -144,19 +142,24 @@
     });
 
     function activeLink() {
-      var current = null;
+      var current = sections[0];
       sections.forEach(function (item) {
         if (item.section.getBoundingClientRect().top <= 150) current = item;
       });
       links.forEach(function (link) {
         link.removeAttribute("aria-current");
       });
-      if (current) current.link.setAttribute("aria-current", "true");
+      if (current) current.link.setAttribute("aria-current", "location");
     }
 
     if (sections.length) {
       activeLink();
-      window.addEventListener("scroll", activeLink, { passive: true });
+      var scheduled = false;
+      window.addEventListener("scroll", function () {
+        if (scheduled) return;
+        scheduled = true;
+        requestAnimationFrame(function () { activeLink(); scheduled = false; });
+      }, { passive: true });
       window.addEventListener("hashchange", function () {
         requestAnimationFrame(activeLink);
       });

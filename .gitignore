@@ -4,3 +4,6 @@ push.sh
 .DS_Store
 个人简历.*
 .trae/
+.bundle/
+.sass-cache/
+.jekyll-cache/

@@ -1,3 +1,33 @@
+# Qimao Chen — Academic Homepage
+
+个人学术主页，使用 Jekyll、Liquid、SCSS 与原生 JavaScript，面向 GitHub Pages 部署。包含研究介绍、论文、教育与实习经历，支持明暗主题、手机导航和 Google Scholar 引用数更新。
+
+## 开发入口
+
+| 内容 | 文件 |
+| --- | --- |
+| 个人资料与站点配置 | `_config.yml` |
+| 首页内容与论文 | `_pages/about.md` |
+| 导航 | `_data/navigation.yml` |
+| 样式 | `_sass/_homepage.scss`、`_sass/_enhancements.scss` |
+| 页面交互 | `assets/js/main.js`、`assets/js/theme.js` |
+| 引用数 | `assets/js/citations.js`、`google_scholar_crawler/` |
+
+安装 Ruby 与锁文件要求的 Bundler 后运行：
+
+```sh
+bundle install
+bash run_server.sh
+```
+
+浏览器打开 `http://127.0.0.1:4000`。修改 `_config.yml` 后需要重启服务。
+
+[前端优化与验收记录](docs/frontend-review.md)
+
+以下保留上游 AcadHomepage 的使用说明与致谢。
+
+---
+
 
 <h1 align="center">
 AcadHomepage

@@ -1,8 +1,8 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <a class="mobile-nav-brand" href="{{ '/' | relative_url }}#about-me">Qimao Chen</a>
-      <nav id="site-nav" class="greedy-nav">
+      <a class="mobile-nav-brand" href="{{ '/' | relative_url }}#about-me">{{ site.title }}</a>
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
         <button class="mobile-nav-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-navigation" aria-expanded="false">
           <span class="mobile-nav-toggle__label">Menu</span>
           <span class="mobile-nav-toggle__icon" aria-hidden="true">
@@ -10,8 +10,7 @@
             <span></span>
           </span>
         </button>
-        <ul id="mobile-navigation" class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+        <ul id="mobile-navigation" class="visible-links" aria-label="Page sections">
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
