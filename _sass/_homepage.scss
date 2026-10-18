@@ -135,7 +135,8 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 5rem;
     overflow-x: clip;
-    background: var(--paper);
+    /* Overscroll canvas: keep it at the gradient tail so bounced edges blend. */
+    background: var(--grad-c);
     scrollbar-color: var(--scroll-thumb) var(--paper);
     scrollbar-gutter: stable;
 }
@@ -205,6 +206,19 @@ body:before {
         inset 0 1px 0 var(--header-inset);
     -webkit-backdrop-filter: saturate(135%) blur(16px);
     backdrop-filter: saturate(135%) blur(16px);
+}
+
+/* Fog extension above the bar: invisible in normal scrolling, but during
+   rubber-band overscroll it fills the revealed strip with the bar's own glass. */
+.masthead:before {
+    position: absolute;
+    top: -100vh;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba(var(--header-fog), 0.76);
+    content: "";
+    pointer-events: none;
 }
 
 .masthead:after {
@@ -423,7 +437,8 @@ body:before {
 
 .page__footer {
     border-top: 1px solid var(--rule);
-    background: var(--paper);
+    /* Transparent: the body gradient continues behind the footer, no hard seam. */
+    background: transparent;
     color: var(--muted);
 }
 
@@ -1101,6 +1116,10 @@ html.reveal-ready .reveal.is-visible {
             inset 0 1px 0 var(--header-inset);
         -webkit-backdrop-filter: saturate(145%) blur(18px);
         backdrop-filter: saturate(145%) blur(18px);
+    }
+
+    .masthead:before {
+        background: rgba(var(--header-fog), 0.72);
     }
 
     .masthead:after {
